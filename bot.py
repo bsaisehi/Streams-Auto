@@ -14,7 +14,7 @@ SOURCES = {
         "type": "individual_id",
         "headers": {
             "Referer": "https://newwwwapiiiiii.vercel.app",
-            "Origin": "https://cricfusion.pages.dev",
+            "Origin": "https://cricboost.pages.dev",
             "User-Agent": USER_AGENT
         }
     },
