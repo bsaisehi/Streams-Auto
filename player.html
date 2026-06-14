@@ -83,8 +83,10 @@
 document.addEventListener('DOMContentLoaded', async () => {
 
   // Static Manifest URL jisse naye JSON ka naam pata chalega
-  const MANIFEST_URL = "https://raw.githubusercontent.com/bsaisehi/Streams-Auto/refs/heads/main/manifest.json";
-
+// manifest.json ko Base64 mein convert kiya: bWFuaWZlc3QuanNvbg==
+  const manifestPath = atob("bWFuaWZlc3QuanNvbg=="); 
+  const MANIFEST_URL = manifestPath;
+  
   const params = new URLSearchParams(window.location.search);
   const CXP = params.get('cxp'); 
 
@@ -108,19 +110,19 @@ document.addEventListener('DOMContentLoaded', async () => {
   let cookieHeader = "";
 
   async function loadChannel() {
-    try {
-      console.log("Fetching live rolling manifest...");
-      // 1. Pehle manifest.json fetch karo jo hamesha up-to-date rehta hai
-      const manifestRes = await fetch(MANIFEST_URL);
-      const manifest = await manifestRes.json();
-      
-      // 2. Manifest se real dynamic file name nikal kar link banao
-      const liveFileName = manifest.live_file;
-      const DYNAMIC_JSON_URL = `https://raw.githubusercontent.com/bsaisehi/Streams-Auto/refs/heads/main/${liveFileName}`;
-      
-      console.log("Fetching rolling data from:", liveFileName);
-      const res = await fetch(DYNAMIC_JSON_URL);
-      const data = await res.json();
+  try {
+    console.log("Fetching live rolling manifest...");
+    // 1. Relative path se manifest uthaya
+    const manifestRes = await fetch("manifest.json");
+    const manifest = await manifestRes.json();
+    
+    // 2. Sirf filename variable ko hi URL bana diya (Relative path)
+    const liveFileName = manifest.live_file;
+    
+    console.log("Fetching rolling data from dynamic source...");
+    const res = await fetch(liveFileName);
+    const data = await res.json();
+
 
       let channelData = null;
       let streamUrl = "";
