@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Universal DRM Player</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/shaka-player.ui.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/controls.min.css">
+
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    html, body { width:100%; height:100%; background:#000; overflow:hidden; font-family:sans-serif; }
+    .shaka-video-container { position:absolute; inset:0; width:100%; height:100%; }
+    video { width:100%; height:100%; object-fit:contain; background:#000; }
+    .error-box {
+      position:fixed; inset:0; display:flex; align-items:center; justify-content:center;
+      color:#fff; background:#000; font-size:20px; z-index: 9999;
+    }
+    video:not([data-loading]) ~ .shaka-spinner-container {
+      display:none !important;
+    }
+  </style>
+</head>
+<body>
+
+<div class="shaka-video-container" data-shaka-player>
+  <video autoplay playsinline preload="metadata"></video>
+</div>
+
+<script>
+/*****************************************************************
+ * 1. 🔒 STRICT DOMAIN LOCK & ANTI-COPY BLOCKER
+ *****************************************************************/
+(function() {
+    // 🔴 CRITICAL: Yahan apni actual website ka domain dalein (jaise: "yourwebsite.com")
+    const ALLOWED_DOMAINS = ["yourwebsite.com", "localhost"]; 
+    const currentDomain = window.location.hostname;
+
+    // Check ki player aapke authorized domain par hi chal raha hai ya nahi
+    const isDomainValid = ALLOWED_DOMAINS.some(domain => currentDomain.includes(domain));
+    if (!isDomainValid) {
+        document.body.innerHTML = `<div class="error-box">Access Denied: Unauthorized Domain Deployment.</div>`;
+        throw new Error("Script terminated due to origin mismatch protection rules.");
+    }
+
+    // Right-click aur keys block karna taaki basic source copy na ho sake
+    document.addEventListener('contextmenu', e => e.preventDefault());
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I') || (e.ctrlKey && e.key === 'U')) {
+        e.preventDefault();
+      }
+    });
+
+    // Anti-Debugger Loop
+    setInterval(function() {
+        var before = new Date().getTime();
+        debugger;
+        var after = new Date().getTime();
+        if (after - before > 100) {
+            window.location.href = "about:blank"; 
+        }
+    }, 250);
+})();
+
+/*****************************************************************
+ * 2. 🎬 MAIN PLAYER ENGINE (DYNAMIC ROLLING JSON)
+ *****************************************************************/
+document.addEventListener('DOMContentLoaded', async () => {
+
+  // Static Manifest URL jisse naye JSON ka naam pata chalega
+  const MANIFEST_URL = "https://raw.githubusercontent.com/bsaisehi/Streams-Auto/refs/heads/main/manifest.json";
+
+  const params = new URLSearchParams(window.location.search);
+  const CXP = params.get('cxp'); 
+
+  if (!CXP) {
+    document.body.innerHTML = `<div class="error-box">Missing ?cxp= parameter</div>`;
+    return;
+  }
+
+  shaka.polyfill.installAll();
+  if (!shaka.Player.isBrowserSupported()) {
+    document.body.innerHTML = `<div class="error-box">Browser Not Supported</div>`;
+    return;
+  }
+
+  const video = document.querySelector("video");
+  const player = new shaka.Player();
+  await player.attach(video);
+
+  new shaka.ui.Overlay(player, document.querySelector(".shaka-video-container"), video);
+
+  let cookieHeader = "";
+
+  async function loadChannel() {
+    try {
+      console.log("Fetching live rolling manifest...");
+      // 1. Pehle manifest.json fetch karo jo hamesha up-to-date rehta hai
+      const manifestRes = await fetch(MANIFEST_URL);
+      const manifest = await manifestRes.json();
+      
+      // 2. Manifest se real dynamic file name nikal kar link banao
+      const liveFileName = manifest.live_file;
+      const DYNAMIC_JSON_URL = `https://raw.githubusercontent.com/bsaisehi/Streams-Auto/refs/heads/main/${liveFileName}`;
+      
+      console.log("Fetching rolling data from:", liveFileName);
+      const res = await fetch(DYNAMIC_JSON_URL);
+      const data = await res.json();
+
+      let channelData = null;
+      let streamUrl = "";
+      let keyId = "";
+      let key = "";
+
+      // ===================================
+      // FORMAT 2: FIFA (cxp=0-1 ya 1-0 style)
+      // ===================================
+      if (CXP && CXP.includes("-")) {
+        const [e, s] = CXP.split("-").map(n => parseInt(n, 10));
+        if (data.fifa26?.events?.[e]?.streams?.[s]) {
+          channelData = data.fifa26.events[e].streams[s];
+          streamUrl = channelData.url;
+
+          if (channelData.drm) {
+            keyId = channelData.drm.kid;
+            key = channelData.drm.key;
+          }
+        }
+      }
+      // ===================================
+      // FORMAT 1: Direct Key (cxp=h, cxp=cazeamzn style)
+      // ===================================
+      else if (data[CXP]) {
+        channelData = data[CXP];
+        streamUrl = channelData.url || channelData.streamUrl;
+        
+        // Agar k1/k2 format hai toh use map karein, nahi toh drm.kid check karein
+        keyId = channelData.k1 || channelData.drm?.kid || channelData.keyId;
+        key = channelData.k2 || channelData.drm?.key || channelData.key;
+      }
+
+      if (!channelData || !streamUrl) {
+        document.body.innerHTML = `<div class="error-box">Stream Not Found</div>`;
+        return;
+      }
+
+      const cleanUrl = streamUrl.split("?")[0];
+      cookieHeader = streamUrl.split("?")[1] || "";
+
+      player.configure({
+        drm: {
+          clearKeys: (keyId && key) ? { [keyId]: key } : {}
+        },
+        streaming: {
+          lowLatencyMode: true,
+          bufferingGoal: 15,
+          rebufferingGoal: 2,
+          bufferBehind: 15
+        }
+      });
+
+      await player.load(cleanUrl);
+
+      // Force hide loading spinner
+      video.addEventListener('playing', () => {
+        const spinner = document.querySelector('.shaka-spinner-container');
+        if (spinner) spinner.style.display = 'none';
+      });
+
+      video.addEventListener('canplay', () => {
+        const spinner = document.querySelector('.shaka-spinner-container');
+        if (spinner) spinner.style.display = 'none';
+      });
+
+      document.title = "Live Stream";
+
+    } catch (e) {
+      console.error(e);
+      document.body.innerHTML = `<div class="error-box">Playback Error or Link Expired</div>`;
+    }
+  }
+
+  // Request filter for specific headers spoofing
+  player.getNetworkingEngine().registerRequestFilter((type, request) => {
+    request.headers['Referer'] = 'https://www.jiotv.com/';
+    request.headers['User-Agent'] = 'plaYtv/7.1.5 (Linux;Android 13) ExoPlayerLib/2.11.6';
+
+    if (cookieHeader) {
+      request.headers['Cookie'] = cookieHeader;
+    }
+  });
+
+  await loadChannel();
+
+  // Har 10 minute mein token/URL updates check karne ke liye sync lagaya hai
+  setInterval(loadChannel, 10 * 60 * 1000);
+
+  player.addEventListener('error', loadChannel);
+});
+</script>
+
+</body>
+</html>
