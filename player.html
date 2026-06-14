@@ -30,21 +30,35 @@
 
 <script>
 /*****************************************************************
- * 1. 🔒 STRICT DOMAIN LOCK & ANTI-COPY BLOCKER
+ * 1. 🔒 STRICT DOMAIN LOCK & ANTI-COPY BLOCKER (UPDATED FOR IFRAME)
  *****************************************************************/
 (function() {
-    // 🔴 CRITICAL: Yahan apni actual website ka domain dalein (jaise: "yourwebsite.com")
-    const ALLOWED_DOMAINS = ["cricxplorerslive.blogspot.com", "ckdlive.blogspot.com", "localhost"]; 
-    const currentDomain = window.location.hostname;
+    // 1. Sirf aapke dono Blogger domains aur local testing allowed hai
+    const ALLOWED_DOMAINS = [
+        "cricxplorerslive.blogspot.com", 
+        "ckdlive.blogspot.com",
+        "localhost"
+    ]; 
+    
+    // 2. Iframe ke case mein referrer check karna zaroori hai
+    const parentReferrer = document.referrer;
+    
+    // 3. Check logic: Kya referrer list mein se kisi ek domain se shuru ho raha hai?
+    let isDomainValid = false;
+    
+    if (parentReferrer) {
+        isDomainValid = ALLOWED_DOMAINS.some(domain => parentReferrer.includes(domain));
+    } else {
+        // Agar koi directly github ka link kholne ki koshish karega (bina iframe ke) toh block hoga
+        isDomainValid = ALLOWED_DOMAINS.some(domain => window.location.hostname.includes(domain));
+    }
 
-    // Check ki player aapke authorized domain par hi chal raha hai ya nahi
-    const isDomainValid = ALLOWED_DOMAINS.some(domain => currentDomain.includes(domain));
     if (!isDomainValid) {
         document.body.innerHTML = `<div class="error-box">Access Denied: Unauthorized Domain Deployment.</div>`;
         throw new Error("Script terminated due to origin mismatch protection rules.");
     }
 
-    // Right-click aur keys block karna taaki basic source copy na ho sake
+    // Right-click aur keys block shortcut protection
     document.addEventListener('contextmenu', e => e.preventDefault());
     document.addEventListener('keydown', function(e) {
       if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I') || (e.ctrlKey && e.key === 'U')) {
