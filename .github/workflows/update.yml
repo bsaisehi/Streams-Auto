@@ -1,0 +1,38 @@
+name: Auto Update Streams JSON
+
+on:
+  schedule:
+    # Har 30 minute mein chalega
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Taaki aap jab chahein manual run kar sakein
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    - name: Run Script
+      run: python bot.py
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "GitHub Action Bot"
+        git config --global user.email "actions@github.com"
+        
+        # Git ko batao ki jo files code ne delete kari hain unhe repository se bhi saaf kare (-A)
+        git add -A
+        
+        git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Rolling Update [$(date)]" && git push)
