@@ -7,14 +7,27 @@ import requests
 
 USER_AGENT = "Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
 
+# 🟢 CONFIGURATION BLOCK FOR ALL 3 APIs
 SOURCES = {
     "cricfusion": {
         "base_url": "https://newwwwapiiiiii.vercel.app/main?id=",
+        # Aapke poorane aur naye IDs ka collection
         "items": ["cazeamzn", "h", "u", "fs1"],
         "type": "individual_id",
         "headers": {
             "Referer": "https://newwwwapiiiiii.vercel.app",
             "Origin": "https://cricboost.pages.dev",
+            "User-Agent": USER_AGENT
+        }
+    },
+    "footapi_new": {
+        "base_url": "https://footapi-psi.vercel.app/main?id=",
+        # Naye targets jo aapne bataye
+        "items": ["cazeios", "unite8sports1hd", "unite8sports2hd"],
+        "type": "individual_id",
+        "headers": {
+            "Referer": "https://footapi-psi.vercel.app/",
+            "Origin": "https://footsterss.pages.dev",
             "User-Agent": USER_AGENT
         }
     },
@@ -34,11 +47,15 @@ SOURCES = {
 def fetch_cricx_js():
     """Naye domain ki JS file se encrypted channel tokens nikalne ke liye"""
     url = "https://lchdxfootball.pages.dev/cricxfootball.js"
+    # Anti-cache random query parameter string build up
+    timestamp_param = int(time.time())
+    final_url = f"{url}?_nocache={timestamp_param}"
+    
     headers = {"User-Agent": USER_AGENT, "Referer": "https://lchdxfootball.pages.dev/"}
     
     print("📡 Processing source: [CRICXFOOTBALL JS]")
     try:
-        res = requests.get(url, headers=headers, timeout=10)
+        res = requests.get(final_url, headers=headers, timeout=10)
         if res.status_code in [200, 304] and res.text:
             match = re.search(r'const\s+encodedChannelData\s*=\s*(\{.*?\});', res.text, re.DOTALL)
             if match:
@@ -92,15 +109,22 @@ def save_rolling_json(master_list):
 
 def fetch_all():
     master_list = {}
-    print("🔄 Automation started... Fetching live streams data...\n")
+    print("🔄 Automation started... Fetching live streams data from 3 APIs...\n")
     
-    # 1. Alag-alag targets se tokenized raw links nikalna
     for source_name, config in SOURCES.items():
         print(f"📡 Processing source: [{source_name.upper()}]")
         current_headers = config["headers"]
         
         for item in config["items"]:
-            target_url = config["base_url"] if item is None else f"{config['base_url']}{item}"
+            # Cache buster to permanently bypass "304 Not Modified" filters on target servers
+            cache_buster = f"&_ts={int(time.time() * 1000)}"
+            
+            if item is None:
+                target_url = f"{config['base_url']}{cache_buster}"
+            else:
+                # Agar base_url me already ? hai to use evaluate karo nahi to append karo
+                sep = "&" if "?" in config['base_url'] else "?"
+                target_url = f"{config['base_url']}{item}{sep}_ts={int(time.time() * 1000)}"
             
             try:
                 res = requests.get(target_url, headers=current_headers, timeout=10)
@@ -109,29 +133,29 @@ def fetch_all():
                         data = res.json()
                         if config["type"] == "bulk_api":
                             master_list[source_name] = data
-                            print(f"  ✅ Successfully fetched ALL streams at once for {source_name}!")
+                            print(f"  ✅ Successfully fetched ALL bulk streams for {source_name}!")
                         else:
                             master_list[item] = data
                             print(f"  ✅ Successfully fetched ID: {item}")
                     except json.JSONDecodeError:
-                        print(f"  ⚠️ Error: Got non-JSON response from {source_name}.")
+                        print(f"  ⚠️ Error: Got non-JSON response from {source_name} for item {item}.")
                 else:
                     print(f"  ❌ Failed to fetch {source_name} | Status Code: {res.status_code}")
             except Exception as e:
-                print(f"  ⚠️ Connection Error: {e}")
+                print(f"  ⚠️ Connection Error on {source_name}: {e}")
                 
-            time.sleep(1)
+            time.sleep(1.5) # Modest sleep interval to protect api rate limit drops
         print("-" * 40)
         
-    # 2. CricXFootball JS data merge karna
+    # CricXFootball JS data merge execution
     cricx_data = fetch_cricx_js()
     if cricx_data:
         master_list["cricxfootball_tokens"] = cricx_data
     print("-" * 40)
         
-    # 3. Rolling File Protection Module trigger karna
+    # Rolling Module execution
     save_rolling_json(master_list)
-    print("\n🎉 ALL DONE: Process finished smoothly!")
+    print("\n🎉 ALL DONE: Master data updated for all 3 engines smoothly!")
 
 if __name__ == "__main__":
     fetch_all()
