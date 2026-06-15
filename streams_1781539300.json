@@ -12,8 +12,8 @@
         "name": "Hindi",
         "Bearer": null,
         "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd14/dth.mpd",
-        "k1": "ee4a1fb5724d964ab540c3d9ddce98e1",
-        "k2": "1b56da7481975507ab506a970c419b8d"
+        "k1": "12ef9ad824df31b59ccf642a6de56a98",
+        "k2": "85dfbeca61d2000d18dc01a7b5a38800"
     },
     "u": {
         "id": "u",
@@ -57,7 +57,7 @@
     },
     "fifa26": {
         "success": true,
-        "generated_at": "2026-06-15T15:31:22.546Z",
+        "generated_at": "2026-06-15T16:01:39.209Z",
         "total": 1,
         "events": [
             {
@@ -69,10 +69,10 @@
                 "streams": [
                     {
                         "title": "FOX SPORTS ENG",
-                        "url": "https://otte-tim.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+                        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/ap5wz1ofsp/out/v1/7fa6feef143747beaa186ebb6dfb2532/cenc.mpd",
                         "drm": {
-                            "kid": "5466ebd70704bdeb657f0abf3c5ca4ef",
-                            "key": "bdd79b72d8e48ed483aa623cc38a8a16"
+                            "kid": "c620c93c60c04999eb9ddc28ecfb70a8",
+                            "key": "e76a709c251313190e76cb3c3d3a5824"
                         }
                     },
                     {
@@ -84,7 +84,15 @@
                         }
                     },
                     {
-                        "title": "FOX SPORTS 4k",
+                        "title": "TSN SPORTS FHD",
+                        "url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/aezp9y6l15/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+                        "drm": {
+                            "kid": "7b37e4614fcee2ec2ff6e5900c2f798f",
+                            "key": "f349a9c28c55c20b9a2c50af99d1fc76"
+                        }
+                    },
+                    {
+                        "title": "FOX ENGLISH FHD",
                         "url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
                         "drm": {
                             "kid": "f6564ec2aee819046328a0e153be574d",
@@ -92,11 +100,11 @@
                         }
                     },
                     {
-                        "title": "TSN SPORTS FHD",
-                        "url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/aezp9y6l15/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+                        "title": "FOX SPORTS 4k",
+                        "url": "https://otte-qw.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/ifz2pnwgbv/out/v1/31d30c91fc65458789b84209d3fa22e4/cenc.mpd",
                         "drm": {
-                            "kid": "7b37e4614fcee2ec2ff6e5900c2f798f",
-                            "key": "f349a9c28c55c20b9a2c50af99d1fc76"
+                            "kid": "1f68713028d439ec03be07f56c1d6213",
+                            "key": "20093db6455160fffed4c394def3193d"
                         }
                     },
                     {
@@ -181,10 +189,10 @@
                     },
                     {
                         "title": "CAZE TV - AQ [BR]",
-                        "url": "https://a121aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/jo3rmhhp2r/out/v1/50656942ce4e40a1be824c9d83578fe9/cenc.mpd",
+                        "url": "https://otte-tim.live.pv-cdn.net/gru-nitro/live/clients/dash/enc/iayg0kyrof/out/v1/91dc04907f56415b897faccfa9d252da/cenc.mpd",
                         "drm": {
-                            "kid": "34475edab991ad5e92548aebd710410a",
-                            "key": "501b209cccd323ac00bf5ac15b406cb4"
+                            "kid": "1223d5105392cabf1bb9c2c1fdf6539a",
+                            "key": "340b409f4b8f78a343e0363a7938df38"
                         }
                     },
                     {
