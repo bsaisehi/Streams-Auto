@@ -20,8 +20,8 @@
         "name": "English ",
         "Bearer": null,
         "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
-        "k1": "e2d998ab1361a95bdb70f10e75ff51a1",
-        "k2": "e680b004bd19c96f759c69dc4993603c"
+        "k1": "55ca7b96946703b0e70d4b5a0c0a36fe",
+        "k2": "c442558af3961253a42a16c0b6f552d7"
     },
     "fs1": {
         "id": "fs1",
@@ -57,7 +57,7 @@
     },
     "fifa26": {
         "success": true,
-        "generated_at": "2026-06-15T15:01:39.456Z",
+        "generated_at": "2026-06-15T15:31:22.546Z",
         "total": 1,
         "events": [
             {
