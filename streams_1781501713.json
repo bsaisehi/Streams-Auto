@@ -57,7 +57,7 @@
     },
     "fifa26": {
         "success": true,
-        "generated_at": "2026-06-15T05:20:45.339Z",
+        "generated_at": "2026-06-15T05:35:11.763Z",
         "total": 1,
         "events": [
             {
@@ -92,6 +92,14 @@
                         }
                     },
                     {
+                        "title": "D SPORTS - AQ [ES]",
+                        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ubehitlwzo/out/v1/8e09c381a51f4366a19e979418112e8f/cenc.mpd",
+                        "drm": {
+                            "kid": "a7d11d37a1f7611ee88d4db880171f32",
+                            "key": "68f96d618b0b956b008c445896a25a79"
+                        }
+                    },
+                    {
                         "title": "M6 FRANCE - AQ [No delay]",
                         "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd",
                         "drm": {
@@ -116,11 +124,27 @@
                         }
                     },
                     {
-                        "title": "D SPORTS - AQ [ES]",
-                        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ubehitlwzo/out/v1/8e09c381a51f4366a19e979418112e8f/cenc.mpd",
+                        "title": "JOJ SPORT - AQ",
+                        "url": "https://dash2.antik.sk/stream/nvidia_joj_sport/playlist_cenc.mpd",
                         "drm": {
-                            "kid": "a7d11d37a1f7611ee88d4db880171f32",
-                            "key": "68f96d618b0b956b008c445896a25a79"
+                            "kid": "11223344556677889900112233445566",
+                            "key": "4b80724d0ef86bcb2c21f7999d67739d"
+                        }
+                    },
+                    {
+                        "title": "NU9VE - AQ",
+                        "url": "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/skz7pgjdyp/out/v1/8e7377f4d3154738b7f48baa996b35a5/cenc.mpd",
+                        "drm": {
+                            "kid": "79737d20a3eaa862f8cb77c61cb3b58c",
+                            "key": "41df11a0be44fd7272538728cec38bc6"
+                        }
+                    },
+                    {
+                        "title": "RT\u00c9 SPORTS ENG - AQ",
+                        "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/0c8b0b72-7a38-4852-ab2e-3fd88cbe71cc:GRQ/manifest.mpd",
+                        "drm": {
+                            "kid": "d816287e21496989eae1312925a423c5",
+                            "key": "00da00f13180e7e6cd5ce87d1c974e8d"
                         }
                     },
                     {
@@ -132,11 +156,19 @@
                         }
                     },
                     {
-                        "title": "CAZE TV - AQ [BR]",
-                        "url": "https://otte-tim.live.pv-cdn.net/gru-nitro/live/clients/dash/enc/iayg0kyrof/out/v1/91dc04907f56415b897faccfa9d252da/cenc.mpd",
+                        "title": "TUDN ESPANOL",
+                        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/8u9cregwlt/out/v1/687f6b2a559943549be271504a948ffd/cenc.mpd",
                         "drm": {
-                            "kid": "1223d5105392cabf1bb9c2c1fdf6539a",
-                            "key": "340b409f4b8f78a343e0363a7938df38"
+                            "kid": "1710ac2bbfcd3032d0f6533850968f47",
+                            "key": "d2548dacc8efcd1cd0af0373060c82dc"
+                        }
+                    },
+                    {
+                        "title": "CAZE TV - AQ [BR]",
+                        "url": "https://a121aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/jo3rmhhp2r/out/v1/50656942ce4e40a1be824c9d83578fe9/cenc.mpd",
+                        "drm": {
+                            "kid": "34475edab991ad5e92548aebd710410a",
+                            "key": "501b209cccd323ac00bf5ac15b406cb4"
                         }
                     },
                     {
@@ -164,27 +196,11 @@
                         }
                     },
                     {
-                        "title": "CTV SPORTS - AQ",
-                        "url": "https://otte-qw.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
-                        "drm": {
-                            "kid": "d185684e2330de5bea436daa094a5e86",
-                            "key": "014f0116154f5bf0050e03a6b0a23157"
-                        }
-                    },
-                    {
                         "title": "SPORZA SPORTS",
                         "url": "https://live.vrtcdn.be/groupd/live/0761024f-37fe-4254-bc37-e95d7c62b2d1/live.isml/.mpd",
                         "drm": {
                             "kid": "893bc63340876605f52886a42e0ccce5",
                             "key": "d6c46d2d691056fbd091bf1f01b21a91"
-                        }
-                    },
-                    {
-                        "title": "CAZE TV - AQ [BR]",
-                        "url": "https://otte-tim.live.pv-cdn.net/gru-nitro/live/clients/dash/enc/iayg0kyrof/out/v1/91dc04907f56415b897faccfa9d252da/cenc.mpd",
-                        "drm": {
-                            "kid": "1223d5105392cabf1bb9c2c1fdf6539a",
-                            "key": "340b409f4b8f78a343e0363a7938df38"
                         }
                     },
                     {
@@ -217,30 +233,6 @@
                         "drm": {
                             "kid": "9145a6e0f778e61866f573d4944dd533",
                             "key": "d02173d40515fea5c83944f21d0f3114"
-                        }
-                    },
-                    {
-                        "title": "NU9VE - AQ",
-                        "url": "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/skz7pgjdyp/out/v1/8e7377f4d3154738b7f48baa996b35a5/cenc.mpd",
-                        "drm": {
-                            "kid": "79737d20a3eaa862f8cb77c61cb3b58c",
-                            "key": "41df11a0be44fd7272538728cec38bc6"
-                        }
-                    },
-                    {
-                        "title": "JOJ SPORT - AQ",
-                        "url": "https://dash2.antik.sk/stream/nvidia_joj_sport/playlist_cenc.mpd",
-                        "drm": {
-                            "kid": "11223344556677889900112233445566",
-                            "key": "4b80724d0ef86bcb2c21f7999d67739d"
-                        }
-                    },
-                    {
-                        "title": "RT\u00c9 SPORTS ENG - AQ",
-                        "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/0c8b0b72-7a38-4852-ab2e-3fd88cbe71cc:GRQ/manifest.mpd",
-                        "drm": {
-                            "kid": "d816287e21496989eae1312925a423c5",
-                            "key": "00da00f13180e7e6cd5ce87d1c974e8d"
                         }
                     }
                 ]
