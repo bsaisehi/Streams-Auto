@@ -57,7 +57,7 @@
     },
     "fifa26": {
         "success": true,
-        "generated_at": "2026-06-15T16:01:39.209Z",
+        "generated_at": "2026-06-15T16:31:28.313Z",
         "total": 1,
         "events": [
             {
@@ -124,27 +124,11 @@
                         }
                     },
                     {
-                        "title": "FUSSBALL TV 4k",
-                        "url": "https://svc45.main.sl.t-online.de/bpk-tv/KID01037_FUSSBALLTV1_uhd/DASH/index.mpd",
-                        "drm": {
-                            "kid": "1f09d5788fbbb03a053d03cc731f31a9",
-                            "key": "d493d5a70c793362324638f61d1726ac"
-                        }
-                    },
-                    {
                         "title": "NTV ENGLISH - AQ",
                         "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/ch299/default/index.mpd",
                         "drm": {
                             "kid": "549ab7cd35a64bb6bb479ecead04d69d",
                             "key": "829799ed534d11fcadeb4b192467e050"
-                        }
-                    },
-                    {
-                        "title": "FUSSBALL TV - AQ",
-                        "url": "https://svc45.main.sl.t-online.de/bpk-tv/KID01037_FUSSBALLTV1_hd/DASH/index.mpd",
-                        "drm": {
-                            "kid": "1cb20afcd9d979c833cfd208c7d3eeb2",
-                            "key": "fef0c15b4a523370892edd5e4133c269"
                         }
                     },
                     {
@@ -241,6 +225,14 @@
                         "drm": {
                             "kid": "9145a6e0f778e61866f573d4944dd533",
                             "key": "d02173d40515fea5c83944f21d0f3114"
+                        }
+                    },
+                    {
+                        "title": "United Sports HIN",
+                        "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
+                        "drm": {
+                            "kid": "55ca7b96946703b0e70d4b5a0c0a36fe",
+                            "key": "c442558af3961253a42a16c0b6f552d7"
                         }
                     }
                 ]
