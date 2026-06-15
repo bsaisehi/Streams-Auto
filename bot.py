@@ -117,12 +117,6 @@ def fetch_all():
             time.sleep(1.5) # Modest sleep interval to protect api rate limit drops
         print("-" * 40)
         
-    # CricXFootball JS data merge execution
-    cricx_data = fetch_cricx_js()
-    if cricx_data:
-        master_list["cricxfootball_tokens"] = cricx_data
-    print("-" * 40)
-        
     # Rolling Module execution
     save_rolling_json(master_list)
     print("\n🎉 ALL DONE: Master data updated for all 3 engines smoothly!")
