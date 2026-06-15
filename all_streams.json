@@ -11,17 +11,17 @@
         "id": "h",
         "name": "Hindi",
         "Bearer": null,
-        "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd14/dth.mpd",
-        "k1": "12ef9ad824df31b59ccf642a6de56a98",
-        "k2": "85dfbeca61d2000d18dc01a7b5a38800"
+        "url": "https://iptv.jio.com/livetv/data/Sansad_TV_1_HD.mpd",
+        "k1": null,
+        "k2": null
     },
     "u": {
         "id": "u",
         "name": "English ",
         "Bearer": null,
         "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
-        "k1": "55ca7b96946703b0e70d4b5a0c0a36fe",
-        "k2": "c442558af3961253a42a16c0b6f552d7"
+        "k1": "b2fa43c0c44f664a88e854fedc2e7ec2",
+        "k2": "e33aa73699d4d9fb24fdb8d31d05975b"
     },
     "fs1": {
         "id": "fs1",
@@ -57,7 +57,7 @@
     },
     "fifa26": {
         "success": true,
-        "generated_at": "2026-06-15T18:01:35.897Z",
+        "generated_at": "2026-06-15T18:31:23.821Z",
         "total": 1,
         "events": [
             {
