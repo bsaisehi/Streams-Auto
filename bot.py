@@ -44,36 +44,6 @@ SOURCES = {
     }
 }
 
-def fetch_cricx_js():
-    """Naye domain ki JS file se encrypted channel tokens nikalne ke liye"""
-    url = "https://lchdxfootball.pages.dev/cricxfootball.js"
-    # Anti-cache random query parameter string build up
-    timestamp_param = int(time.time())
-    final_url = f"{url}?_nocache={timestamp_param}"
-    
-    headers = {"User-Agent": USER_AGENT, "Referer": "https://lchdxfootball.pages.dev/"}
-    
-    print("📡 Processing source: [CRICXFOOTBALL JS]")
-    try:
-        res = requests.get(final_url, headers=headers, timeout=10)
-        if res.status_code in [200, 304] and res.text:
-            match = re.search(r'const\s+encodedChannelData\s*=\s*(\{.*?\});', res.text, re.DOTALL)
-            if match:
-                js_object = match.group(1)
-                clean_json = re.sub(r'(\b\w+\b)\s*:', r'"\1":', js_object)
-                clean_json = re.sub(r',\s*\}', '}', clean_json)
-                clean_json = clean_json.replace("'", '"')
-                
-                data = json.loads(clean_json)
-                print(f"  ✅ Successfully extracted {len(data)} encrypted channels from JS file!")
-                return data
-            else:
-                print("  ⚠️ Error: JS file me 'encodedChannelData' nahi mila.")
-        else:
-            print(f"  ❌ Failed to fetch JS file | Status Code: {res.status_code}")
-    except Exception as e:
-        print(f"  ⚠️ Error parsing JS file: {e}")
-    return None
 
 def save_rolling_json(master_list):
     """JSON file ka naam badalne aur purani file ko mitaane ka unique protection logic"""
