@@ -57,182 +57,62 @@
     },
     "fifa26": {
         "success": true,
-        "generated_at": "2026-06-16T04:01:27.684Z",
+        "generated_at": "2026-06-16T04:31:23.508Z",
         "total": 1,
         "events": [
             {
                 "event_id": "1",
-                "event_title": "FIFA World Cup - Spain vs Cabo Verde",
-                "event_time": "15 Jun, 09:30 pm",
-                "event_time_raw": 1781539200000,
-                "category": "Football",
+                "event_title": "Moto Gp - Moto GP vs Moto GP",
+                "event_time": "07 Jun, 02:30 pm",
+                "event_time_raw": 1780822800000,
+                "category": "Motorsport",
                 "streams": [
                     {
-                        "title": "FOX SPORTS ENG",
-                        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/ap5wz1ofsp/out/v1/7fa6feef143747beaa186ebb6dfb2532/cenc.mpd",
+                        "title": "FANCODE - AQ",
+                        "url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
                         "drm": {
-                            "kid": "c620c93c60c04999eb9ddc28ecfb70a8",
-                            "key": "e76a709c251313190e76cb3c3d3a5824"
+                            "kid": "065051b99bf5cf8d9a3bde5cbde6aaf9",
+                            "key": "214bd176832872339ce184338320f9a2"
                         }
                     },
                     {
-                        "title": "TELEMUNDO - AQ",
-                        "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd",
+                        "title": "TNT SPORTS - AQ",
+                        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3j04z3pbit/out/v1/042ee0757ed348bf8c26f75895cae871/cenc.mpd",
                         "drm": {
-                            "kid": "ce7ab3022e753307997f58afe001bac4",
-                            "key": "72d631a66e635c60829a0fe7705516c1"
+                            "kid": "0b59ce06de74ed84f2eda5e81dadba13",
+                            "key": "48e4ba4ad6c2a60d2bda5d71a0050844"
                         }
                     },
                     {
-                        "title": "TSN SPORTS FHD",
-                        "url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/aezp9y6l15/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+                        "title": "FANCODE - SD",
+                        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/v8g0dlo4z8/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
                         "drm": {
-                            "kid": "7b37e4614fcee2ec2ff6e5900c2f798f",
-                            "key": "f349a9c28c55c20b9a2c50af99d1fc76"
+                            "kid": "5689304538fa9f3bb3da99c939a2ad4f",
+                            "key": "6907c88ed8ebdd35a2fa80b9684715e1"
                         }
                     },
                     {
-                        "title": "FOX ENGLISH FHD",
-                        "url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
+                        "title": "SPO TV - AQ",
+                        "url": "https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd",
                         "drm": {
-                            "kid": "f6564ec2aee819046328a0e153be574d",
-                            "key": "ff46a8a1031eb27ef22576a077c98ab7"
+                            "kid": "7eea72d6075245a99ee3255603d58853",
+                            "key": "6848ef60575579bf4d415db1032153ed"
                         }
                     },
                     {
-                        "title": "FOX SPORTS 4k",
-                        "url": "https://otte-qw.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/ifz2pnwgbv/out/v1/31d30c91fc65458789b84209d3fa22e4/cenc.mpd",
+                        "title": "ZIGGO SPORT",
+                        "url": "https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=86&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7EqbcsJh_jU5C9BcZc959e_wae44b4867b3417aa76b5db2da20fe46c%7EKZzTWjB8qD1zdgbJjRPVLJX-tV0qiN9RBHC_iseGrsmTSRjj06oGDtGlpSCRGOwF3626cf085c08d024c7e4aafc18c32440%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601012829%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601012829%2C3103_SP1S%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_Sport1%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&RTS=1717205309&from=11&hms_devid=1008&online=1717205309&mag_hms=1008,311,305&_=1717205322621",
                         "drm": {
-                            "kid": "1f68713028d439ec03be07f56c1d6213",
-                            "key": "20093db6455160fffed4c394def3193d"
+                            "kid": "ef34ae91b4f2415e8439b2ad105e7488",
+                            "key": "243248d8de1ff8c7c587ee2057317523"
                         }
                     },
                     {
-                        "title": "D SPORTS - AQ [ES]",
-                        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ubehitlwzo/out/v1/8e09c381a51f4366a19e979418112e8f/cenc.mpd",
+                        "title": "MOTOGP - AQ",
+                        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd",
                         "drm": {
-                            "kid": "a7d11d37a1f7611ee88d4db880171f32",
-                            "key": "68f96d618b0b956b008c445896a25a79"
-                        }
-                    },
-                    {
-                        "title": "M6 FRANCE - AQ [No delay]",
-                        "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd",
-                        "drm": {
-                            "kid": "433ffba670963e70857859a9dff4be04",
-                            "key": "51ede3a821229fe81e71282c8eff80e3"
-                        }
-                    },
-                    {
-                        "title": "NTV ENGLISH - AQ",
-                        "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/ch299/default/index.mpd",
-                        "drm": {
-                            "kid": "549ab7cd35a64bb6bb479ecead04d69d",
-                            "key": "829799ed534d11fcadeb4b192467e050"
-                        }
-                    },
-                    {
-                        "title": "JOJ SPORT - AQ",
-                        "url": "https://dash2.antik.sk/stream/nvidia_joj_sport/playlist_cenc.mpd",
-                        "drm": {
-                            "kid": "11223344556677889900112233445566",
-                            "key": "4b80724d0ef86bcb2c21f7999d67739d"
-                        }
-                    },
-                    {
-                        "title": "NU9VE - AQ",
-                        "url": "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/skz7pgjdyp/out/v1/8e7377f4d3154738b7f48baa996b35a5/cenc.mpd",
-                        "drm": {
-                            "kid": "79737d20a3eaa862f8cb77c61cb3b58c",
-                            "key": "41df11a0be44fd7272538728cec38bc6"
-                        }
-                    },
-                    {
-                        "title": "RT\u00c9 SPORTS ENG - AQ",
-                        "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/0c8b0b72-7a38-4852-ab2e-3fd88cbe71cc:GRQ/manifest.mpd",
-                        "drm": {
-                            "kid": "d816287e21496989eae1312925a423c5",
-                            "key": "00da00f13180e7e6cd5ce87d1c974e8d"
-                        }
-                    },
-                    {
-                        "title": "ORF GERMAN HD",
-                        "url": "https://simplitv-live.mdn.ors.at/live/eds/orf_1_hd-1/dash4h/orf_1_hd-1.mpd",
-                        "drm": {
-                            "kid": "429bcf031bbf3146a67f3f583e4c4355",
-                            "key": "d1b92aba5a38a518c8b8a1fd2bca4398"
-                        }
-                    },
-                    {
-                        "title": "TUDN ESPANOL",
-                        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/8u9cregwlt/out/v1/687f6b2a559943549be271504a948ffd/cenc.mpd",
-                        "drm": {
-                            "kid": "1710ac2bbfcd3032d0f6533850968f47",
-                            "key": "d2548dacc8efcd1cd0af0373060c82dc"
-                        }
-                    },
-                    {
-                        "title": "CAZE TV - AQ [BR]",
-                        "url": "https://otte-tim.live.pv-cdn.net/gru-nitro/live/clients/dash/enc/iayg0kyrof/out/v1/91dc04907f56415b897faccfa9d252da/cenc.mpd",
-                        "drm": {
-                            "kid": "1223d5105392cabf1bb9c2c1fdf6539a",
-                            "key": "340b409f4b8f78a343e0363a7938df38"
-                        }
-                    },
-                    {
-                        "title": "CT SPORTS - AQ",
-                        "url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
-                        "drm": {
-                            "kid": "11223344556677889900112233445566",
-                            "key": "4b80724d0ef86bcb2c21f7999d67739d"
-                        }
-                    },
-                    {
-                        "title": "TELEMUNDO SPANISH",
-                        "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(WSNS)/master.mpd",
-                        "drm": {
-                            "kid": "7d6bb9f86e133e4cb33440b493b6b672",
-                            "key": "584ad285dcb9e7d42cf3e93f1cc3fe11"
-                        }
-                    },
-                    {
-                        "title": "SPORZA SPORTS",
-                        "url": "https://live.vrtcdn.be/groupd/live/0761024f-37fe-4254-bc37-e95d7c62b2d1/live.isml/.mpd",
-                        "drm": {
-                            "kid": "893bc63340876605f52886a42e0ccce5",
-                            "key": "d6c46d2d691056fbd091bf1f01b21a91"
-                        }
-                    },
-                    {
-                        "title": "CTV SPORTS - AQ",
-                        "url": "https://otte-qw.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
-                        "drm": {
-                            "kid": "d185684e2330de5bea436daa094a5e86",
-                            "key": "014f0116154f5bf0050e03a6b0a23157"
-                        }
-                    },
-                    {
-                        "title": "CIGNAL ENGLISH",
-                        "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/ch299/default/index.mpd",
-                        "drm": {
-                            "kid": "549ab7cd35a64bb6bb479ecead04d69d",
-                            "key": "829799ed534d11fcadeb4b192467e050"
-                        }
-                    },
-                    {
-                        "title": "Match Football",
-                        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
-                        "drm": {
-                            "kid": "9145a6e0f778e61866f573d4944dd533",
-                            "key": "d02173d40515fea5c83944f21d0f3114"
-                        }
-                    },
-                    {
-                        "title": "United Sports HIN",
-                        "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
-                        "drm": {
-                            "kid": "55ca7b96946703b0e70d4b5a0c0a36fe",
-                            "key": "c442558af3961253a42a16c0b6f552d7"
+                            "kid": "e03f302ec4dabcccca82cc9f76731ec9",
+                            "key": "53ea1027d2bf2893a552cf15bc0366de"
                         }
                     }
                 ]
