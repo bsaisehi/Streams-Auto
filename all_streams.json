@@ -239,6 +239,30 @@
         "k1": "c620c93c60c04999eb9ddc28ecfb70a8",
         "k2": "e76a709c251313190e76cb3c3d3a5824"
     },
+    "fctvenglishaq": {
+        "id": "fctvenglishaq",
+        "name": "CTV ENGLISH - AQ",
+        "Bearer": null,
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rcgdlutvzh/out/v1/d08fb8f93d8142be9ae3305e3c953694/cenc.mpd",
+        "k1": "1fb1ab890f1b9392db40321042ad194b",
+        "k2": "7c9d16a71ccdb3ced4ff1344c8c75d67"
+    },
+    "frteenglishaq": {
+        "id": "frteenglishaq",
+        "name": "RTE ENGLISH - AQ",
+        "Bearer": null,
+        "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
+        "k1": "d816287e21496989eae1312925a423c5",
+        "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
+    },
+    "ftudnespanolaq": {
+        "id": "ftudnespanolaq",
+        "name": "TUDN ESPANOL - AQ",
+        "Bearer": null,
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/8u9cregwlt/out/v1/687f6b2a559943549be271504a948ffd/cenc.mpd",
+        "k1": "1710ac2bbfcd3032d0f6533850968f47",
+        "k2": "d2548dacc8efcd1cd0af0373060c82dc"
+    },
     "ftipikfr": {
         "id": "ftipikfr",
         "name": "TIPIK FR - AQ",
@@ -270,22 +294,6 @@
         "url": "https://a121aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/a6bxtdgxts/out/v1/691e8c4b528d4e45b893a9e2e516211b/cenc.mpd",
         "k1": "9752ef72590ef441ffa3731e0486fbc0",
         "k2": "db63ec7b9f11348b7cc6808a54c99457"
-    },
-    "fctvsports": {
-        "id": "fctvsports",
-        "name": "CTV SPORTS - AQ",
-        "Bearer": null,
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rcgdlutvzh/out/v1/d08fb8f93d8142be9ae3305e3c953694/cenc.mpd",
-        "k1": "1fb1ab890f1b9392db40321042ad194b",
-        "k2": "7c9d16a71ccdb3ced4ff1344c8c75d67"
-    },
-    "frteenglishhd": {
-        "id": "frteenglishhd",
-        "name": "RTE ENGLISH HD",
-        "Bearer": null,
-        "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
-        "k1": "d816287e21496989eae1312925a423c5",
-        "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
     },
     "ftelemundoaq[es]": {
         "id": "ftelemundoaq[es]",
