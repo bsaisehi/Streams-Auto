@@ -1,14 +1,39 @@
 import requests
 import json
 import time
-import base64
 
 USER_AGENT = "Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+
+# FIFA ke titles ko aapki player play-IDs se match karne ke liye mapping dictionary
+# Inke aage hum script ke andar loop me auto 'f' prefix laga denge
+FIFA_TITLE_MAP = {
+    "FOX SPORTS ENG": "foxusa",
+    "NTV ENGLISH - AQ": "ntv",
+    "D SPORTS - AQ [ES]": "dsports",
+    "TELEMUNDO - AQ": "telemundo",
+    "TELEMUNDO SPANISH": "telemundo2",
+    "M6 FRANCE - AQ [No delay]": "m6",
+    "FOX SPORTS FHD": "foxusafhd",
+    "FOX SPORTS 4k": "foxusa4k",
+    "NOW SPORTS 4K": "nowsports4k",
+    "TIPIK FR - AQ": "tipikfr",
+    "CT SPORTS - AQ": "ctsports",
+    "CTV SPORTS - AQ": "ctvsports",
+    "Match Football": "matchfootball",
+    "TVP POLISH FHD": "tvppolish",
+    "ORF GERMAN HD": "orfgerman",
+    "SPORZA SPORTS": "sporzasports",
+    "CAZE TV - AQ [BR]": "cazetvprime",
+    "SPORTV BR - AQ": "sportvbr",
+    "ZDF GERMAN HD": "zdfgerman",
+    "PEACOCK TV": "peacocktv",
+    "UNITE8 ENG - IN": "unite8sports1hd",
+    "UNITE8 HINDI - IN": "unite8sports2hd"
+}
 
 SOURCES = {
     "cricfusion": {
         "base_url": "https://newwwwapiiiiii.vercel.app/main?id=",
-        # Aapke poorane aur naye IDs ka collection
         "items": ["cazeamzn", "h", "u", "fs1"],
         "type": "individual_id",
         "headers": {
@@ -18,32 +43,30 @@ SOURCES = {
         }
     },
     "footapi_new": {
-    "base_url": "https://footapi-psi.vercel.app/main",
-    "items": [None],
-    "type": "bulk_api",
-    "headers": {
-        "Referer": "https://footapi-psi.vercel.app/",
-        "Origin": "https://footsterss.pages.dev",
-        "User-Agent": USER_AGENT
+        "base_url": "https://footapi-psi.vercel.app/main",
+        "items": [None],
+        "type": "bulk_ids",
+        "headers": {
+            "Referer": "https://footapi-psi.vercel.app/",
+            "Origin": "https://footsterss.pages.dev",
+            "User-Agent": USER_AGENT
         }
     },
     "fifa26": {
         "base_url": "https://footballapi-delta.vercel.app/api/events?play=1",
         "items": [None],
-        "type": "bulk_api",
+        "type": "events_api",
         "headers": {
             "Origin": "https://fifa26-live.pages.dev",
             "User-Agent": USER_AGENT,
-            "Accept": "*/*",
-            "Accept-Language": "en-US,en;q=0.9,hi;q=0.8"
+            "Accept": "*/*"
         }
     }
 }
 
-
 def fetch_all():
     master_list = {}
-    print("🔄 Automation started... Fetching live streams data...\n")
+    print("🔄 Automation started... Generating Flat JSON Output with 'f' Prefix for FIFA...\n")
 
     for source_name, config in SOURCES.items():
         print(f"📡 Processing source: [{source_name.upper()}]")
@@ -59,34 +82,54 @@ def fetch_all():
                     try:
                         data = res.json()
 
-                        if config["type"] == "bulk_api":
-
-                            # Auto-add all channels found in response
+                        # Case 1: Bulk APIs (footapi_new) - Normal Root Level Flat IDs
+                        if config["type"] == "bulk_ids":
                             if isinstance(data, dict):
                                 for channel_id, channel_data in data.items():
                                     master_list[channel_id] = channel_data
+                            elif isinstance(data, list):
+                                for channel in data:
+                                    c_id = channel.get("id") or channel.get("name", "").lower().replace(" ", "")
+                                    master_list[c_id] = channel
+                            print(f"  ✅ Flattened normal channels from {source_name}")
 
-                                print(
-                                    f"  ✅ Loaded {len(data)} channels automatically"
-                                )
+                        # Case 2: FIFA Complex Events - Inke aage automatic 'f' prefix lagega
+                        elif config["type"] == "events_api":
+                            events = data.get("events", []) if isinstance(data, dict) else []
+                            extracted_count = 0
+                            
+                            for event in events:
+                                for stream in event.get("streams", []):
+                                    title = stream.get("title", "")
+                                    
+                                    # Agar map me title hai toh uske aage 'f' lagao, nahi toh dynamic title ke aage 'f' jod do
+                                    if title in FIFA_TITLE_MAP:
+                                        custom_id = f"f{FIFA_TITLE_MAP[title]}"
+                                    else:
+                                        clean_title = title.lower().replace(" ", "").replace("-", "")
+                                        custom_id = f"f{clean_title}"
+                                    
+                                    drm_data = stream.get("drm") or {}
+                                    master_list[custom_id] = {
+                                        "id": custom_id,
+                                        "name": title,
+                                        "Bearer": None,
+                                        "url": stream.get("url"),
+                                        "k1": drm_data.get("kid") if isinstance(drm_data, dict) else None,
+                                        "k2": drm_data.get("key") if isinstance(drm_data, dict) else None
+                                    }
+                                    extracted_count += 1
+                            print(f"  ✅ Extracted & Flattened {extracted_count} FIFA streams with 'f' prefix!")
 
-                            else:
-                                master_list[source_name] = data
-                                print(
-                                    f"  ✅ Successfully fetched bulk data"
-                                )
-
+                        # Case 3: Individual IDs (cricfusion)
                         else:
                             master_list[item] = data
-                            print(f"  ✅ Successfully fetched ID: {item}")
+                            print(f"  ✅ Flattened individual ID: {item}")
 
                     except json.JSONDecodeError:
                         print("  ⚠️ Error: Got non-JSON response from server.")
-
                 else:
-                    print(
-                        f"  ❌ Failed to fetch | Status Code: {res.status_code}"
-                    )
+                    print(f"  ❌ Failed to fetch | Status Code: {res.status_code}")
 
             except Exception as e:
                 print(f"  ⚠️ Connection Error: {e}")
@@ -95,14 +138,11 @@ def fetch_all():
 
         print("-" * 40)
         
-    final_secure_response = {}
-    for key, val in master_list.items():
-        final_secure_response[key] = encode_to_custom_string(val)
-        
+    # Final consolidated data dump
     with open("all_streams.json", "w") as f:
-        json.dump(final_secure_response, f, indent=4)
+        json.dump(master_list, f, indent=4)
         
-    print(f"\n🎉 Process finished! Data successfully encrypted and saved in 'all_streams.json'.")
+    print(f"\n🎉 Success! All items saved cleanly. FIFA channels are now safely prefixed with 'f'.")
 
 if __name__ == "__main__":
     fetch_all()
