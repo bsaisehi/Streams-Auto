@@ -231,13 +231,13 @@
         "k1": null,
         "k2": null
     },
-    "ffoxusa": {
-        "id": "ffoxusa",
-        "name": "FOX SPORTS ENG",
+    "ftelemundo": {
+        "id": "ftelemundo",
+        "name": "TELEMUNDO - AQ",
         "Bearer": null,
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/ap5wz1ofsp/out/v1/7fa6feef143747beaa186ebb6dfb2532/cenc.mpd",
-        "k1": "c620c93c60c04999eb9ddc28ecfb70a8",
-        "k2": "e76a709c251313190e76cb3c3d3a5824"
+        "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd",
+        "k1": "ce7ab3022e753307997f58afe001bac4",
+        "k2": "72d631a66e635c60829a0fe7705516c1"
     },
     "fdsports": {
         "id": "fdsports",
@@ -246,22 +246,6 @@
         "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ubehitlwzo/out/v1/8e09c381a51f4366a19e979418112e8f/cenc.mpd",
         "k1": "a7d11d37a1f7611ee88d4db880171f32",
         "k2": "68f96d618b0b956b008c445896a25a79"
-    },
-    "fntv": {
-        "id": "fntv",
-        "name": "NTV ENGLISH - AQ",
-        "Bearer": null,
-        "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/ch299/default/index.mpd",
-        "k1": "549ab7cd35a64bb6bb479ecead04d69d",
-        "k2": "829799ed534d11fcadeb4b192467e050"
-    },
-    "ftelemundo": {
-        "id": "ftelemundo",
-        "name": "TELEMUNDO - AQ",
-        "Bearer": null,
-        "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd",
-        "k1": "ce7ab3022e753307997f58afe001bac4",
-        "k2": "72d631a66e635c60829a0fe7705516c1"
     },
     "ffoxusafhd": {
         "id": "ffoxusafhd",
@@ -294,6 +278,14 @@
         "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd",
         "k1": "433ffba670963e70857859a9dff4be04",
         "k2": "51ede3a821229fe81e71282c8eff80e3"
+    },
+    "fntv": {
+        "id": "fntv",
+        "name": "NTV ENGLISH - AQ",
+        "Bearer": null,
+        "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/ch299/default/index.mpd",
+        "k1": "549ab7cd35a64bb6bb479ecead04d69d",
+        "k2": "829799ed534d11fcadeb4b192467e050"
     },
     "ftipikfr": {
         "id": "ftipikfr",
@@ -343,14 +335,6 @@
         "k1": null,
         "k2": null
     },
-    "forfgerman": {
-        "id": "forfgerman",
-        "name": "ORF GERMAN HD",
-        "Bearer": null,
-        "url": "https://simplitv-live.mdn.ors.at/live/eds/orf_1_hd-1/dash4h/orf_1_hd-1.mpd",
-        "k1": "429bcf031bbf3146a67f3f583e4c4355",
-        "k2": "d1b92aba5a38a518c8b8a1fd2bca4398"
-    },
     "fsporzasports": {
         "id": "fsporzasports",
         "name": "SPORZA SPORTS",
@@ -367,14 +351,6 @@
         "k1": "9752ef72590ef441ffa3731e0486fbc0",
         "k2": "db63ec7b9f11348b7cc6808a54c99457"
     },
-    "fsportvbr": {
-        "id": "fsportvbr",
-        "name": "SPORTV BR - AQ",
-        "Bearer": null,
-        "url": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/clients/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
-        "k1": "4bbcff3289d457b4dd5dbdd21221de9a",
-        "k2": "c4906b9a9f8dda3c0725bddb8c497733"
-    },
     "fzdfgerman": {
         "id": "fzdfgerman",
         "name": "ZDF GERMAN HD",
@@ -382,14 +358,6 @@
         "url": "https://simplitv-live.mdn.ors.at/live/eds/zdf_hd/dash4h/zdf_hd.mpd",
         "k1": "c1a0ac1044a433d0856ccdc08f245084",
         "k2": "7f0e8800a6d63d7915ac181bb88ce813"
-    },
-    "fpeacocktv": {
-        "id": "fpeacocktv",
-        "name": "PEACOCK TV",
-        "Bearer": null,
-        "url": "https://g003-sle-us-cmaf-prd-fy.cdn.peacocktv.com/pck-sle/us-west-2/v1/dash/6f3f45fea6332a47667932dede90d20a96f2690c/peacock-dash-sle-4s-generic-cfd/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5021803-723661-4913ad3bb8d)/master_2hr.mpd",
-        "k1": "00225c60176efda4b723158c4b97e350",
-        "k2": "6eab2db790d238cdce8f9455129cdb20"
     },
     "funite8sports1hd": {
         "id": "funite8sports1hd",
@@ -406,5 +374,13 @@
         "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
         "k1": "a84eb885331f7b3d744b10ced1a9dd8b",
         "k2": "ff626d44d51e2d2d9802ef83a1d28437"
+    },
+    "fjojsportaq": {
+        "id": "fjojsportaq",
+        "name": "JOJ SPORT - AQ",
+        "Bearer": null,
+        "url": "https://dash2.antik.sk/stream/nvidia_joj_sport/playlist_cenc.mpd",
+        "k1": "11223344556677889900112233445566",
+        "k2": "4b80724d0ef86bcb2c21f7999d67739d"
     }
 }
