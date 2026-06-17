@@ -19,14 +19,13 @@ SOURCES = {
         }
     },
     "footapi_new": {
-        "base_url": "https://footapi-psi.vercel.app/main?id=",
-        # Naye targets jo aapne bataye
-        "items": ["cazeios", "unite8sports1hd", "unite8sports2hd"],
-        "type": "individual_id",
-        "headers": {
-            "Referer": "https://footapi-psi.vercel.app/",
-            "Origin": "https://footsterss.pages.dev",
-            "User-Agent": USER_AGENT
+    "base_url": "https://footapi-psi.vercel.app/main",
+    "items": [None],
+    "type": "bulk_api",
+    "headers": {
+        "Referer": "https://footapi-psi.vercel.app/",
+        "Origin": "https://footsterss.pages.dev",
+        "User-Agent": USER_AGENT
         }
     },
     "fifa26": {
@@ -58,43 +57,55 @@ def encode_to_custom_string(obj):
 def fetch_all():
     master_list = {}
     print("🔄 Automation started... Fetching live streams data...\n")
-    
+
     for source_name, config in SOURCES.items():
         print(f"📡 Processing source: [{source_name.upper()}]")
         current_headers = config["headers"]
-        
+
         for item in config["items"]:
-            # URL banana (bulk api ke liye item None hoga isliye direct url use hoga)
             target_url = config["base_url"] if item is None else f"{config['base_url']}{item}"
-            
+
             try:
                 res = requests.get(target_url, headers=current_headers, timeout=10)
-                
+
                 if res.status_code == 200 and res.text.strip():
                     try:
                         data = res.json()
-                        
-                        # Agar bulk list dene wali API hai (jaise FIFA26)
+
                         if config["type"] == "bulk_api":
-                            master_list[source_name] = data
-                            print(f"  ✅ Successfully fetched ALL streams at once for {source_name}!")
-                        
-                        # Agar ek ek karke ID fetch karne wali API hai (jaise Cricfusion)
+
+                            # Auto-add all channels found in response
+                            if isinstance(data, dict):
+                                for channel_id, channel_data in data.items():
+                                    master_list[channel_id] = channel_data
+
+                                print(
+                                    f"  ✅ Loaded {len(data)} channels automatically"
+                                )
+
+                            else:
+                                master_list[source_name] = data
+                                print(
+                                    f"  ✅ Successfully fetched bulk data"
+                                )
+
                         else:
                             master_list[item] = data
                             print(f"  ✅ Successfully fetched ID: {item}")
-                            
+
                     except json.JSONDecodeError:
-                        print(f"  ⚠️ Error: Got non-JSON response from server.")
+                        print("  ⚠️ Error: Got non-JSON response from server.")
+
                 else:
-                    print(f"  ❌ Failed to fetch | Status Code: {res.status_code}")
-                    
+                    print(
+                        f"  ❌ Failed to fetch | Status Code: {res.status_code}"
+                    )
+
             except Exception as e:
                 print(f"  ⚠️ Connection Error: {e}")
-                
-            # Rate limit se bachne ke liye chhota sa pause
+
             time.sleep(1.5)
-            
+
         print("-" * 40)
         
     final_secure_response = {}
