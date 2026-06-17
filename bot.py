@@ -4,7 +4,6 @@ import time
 import base64
 
 USER_AGENT = "Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
-SECRET_KEY = "ChaudharyPlayerPremiumKey_2026!@#"
 
 SOURCES = {
     "cricfusion": {
@@ -41,18 +40,6 @@ SOURCES = {
     }
 }
 
-def xor_encrypt_decrypt(input_str, key):
-    output = []
-    for i in range(len(input_str)):
-        output.append(chr(ord(input_str[i]) ^ ord(key[i % len(key)])))
-    return "".join(output)
-
-def encode_to_custom_string(obj):
-    json_str = json.dumps(obj, separators=(',', ':'))
-    xor_str = xor_encrypt_decrypt(json_str, SECRET_KEY)
-    binary_bytes = xor_str.encode('utf-8', errors='surrogateescape')
-    base64_bytes = base64.b64encode(binary_bytes)
-    return base64_bytes.decode('utf-8')
 
 def fetch_all():
     master_list = {}
