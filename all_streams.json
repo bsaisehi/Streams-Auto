@@ -231,53 +231,21 @@
         "k1": null,
         "k2": null
     },
-    "ftelemundo": {
-        "id": "ftelemundo",
-        "name": "TELEMUNDO - AQ",
+    "ftelemundoaq[es]": {
+        "id": "ftelemundoaq[es]",
+        "name": "TELEMUNDO - AQ [ES]",
         "Bearer": null,
         "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd",
         "k1": "ce7ab3022e753307997f58afe001bac4",
         "k2": "72d631a66e635c60829a0fe7705516c1"
     },
-    "fdsports": {
-        "id": "fdsports",
-        "name": "D SPORTS - AQ [ES]",
+    "fcgpenglishaq": {
+        "id": "fcgpenglishaq",
+        "name": "CGP ENGLISH - AQ",
         "Bearer": null,
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ubehitlwzo/out/v1/8e09c381a51f4366a19e979418112e8f/cenc.mpd",
-        "k1": "a7d11d37a1f7611ee88d4db880171f32",
-        "k2": "68f96d618b0b956b008c445896a25a79"
-    },
-    "ffoxusafhd": {
-        "id": "ffoxusafhd",
-        "name": "FOX SPORTS FHD",
-        "Bearer": null,
-        "url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
-        "k1": "f6564ec2aee819046328a0e153be574d",
-        "k2": "ff46a8a1031eb27ef22576a077c98ab7"
-    },
-    "ffoxusa4k": {
-        "id": "ffoxusa4k",
-        "name": "FOX SPORTS 4k",
-        "Bearer": null,
-        "url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/0zyzcgeq2w/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd",
-        "k1": "1f68713028d439ec03be07f56c1d6213",
-        "k2": "20093db6455160fffed4c394def3193d"
-    },
-    "fnowsports4k": {
-        "id": "fnowsports4k",
-        "name": "NOW SPORTS 4K",
-        "Bearer": null,
-        "url": "https://nowp.wasabih.net/channel/616/master.mpd",
-        "k1": "91ba752a446148c68400d78374b178b4",
-        "k2": "a01d7dc4edf582496b7e73d67e9e6899"
-    },
-    "fm6": {
-        "id": "fm6",
-        "name": "M6 FRANCE - AQ [No delay]",
-        "Bearer": null,
-        "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd",
-        "k1": "433ffba670963e70857859a9dff4be04",
-        "k2": "51ede3a821229fe81e71282c8eff80e3"
+        "url": "https://otte-qw.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
+        "k1": "d185684e2330de5bea436daa094a5e86",
+        "k2": "014f0116154f5bf0050e03a6b0a23157"
     },
     "fntv": {
         "id": "fntv",
@@ -295,6 +263,14 @@
         "k1": "adca25b8779e4168a0cd710f59f61ccf",
         "k2": "be5383ed3cd8079f4ffe78ad067f476a"
     },
+    "fm6": {
+        "id": "fm6",
+        "name": "M6 FRANCE - AQ [No delay]",
+        "Bearer": null,
+        "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd",
+        "k1": "433ffba670963e70857859a9dff4be04",
+        "k2": "51ede3a821229fe81e71282c8eff80e3"
+    },
     "fctsports": {
         "id": "fctsports",
         "name": "CT SPORTS - AQ",
@@ -303,13 +279,13 @@
         "k1": "11223344556677889900112233445566",
         "k2": "4b80724d0ef86bcb2c21f7999d67739d"
     },
-    "fctvsports": {
-        "id": "fctvsports",
-        "name": "CTV SPORTS - AQ",
+    "fjojsportaq": {
+        "id": "fjojsportaq",
+        "name": "JOJ SPORT - AQ",
         "Bearer": null,
-        "url": "https://otte-qw.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
-        "k1": "d185684e2330de5bea436daa094a5e86",
-        "k2": "014f0116154f5bf0050e03a6b0a23157"
+        "url": "https://dash2.antik.sk/stream/nvidia_joj_sport/playlist_cenc.mpd",
+        "k1": "11223344556677889900112233445566",
+        "k2": "4b80724d0ef86bcb2c21f7999d67739d"
     },
     "ftelemundo2": {
         "id": "ftelemundo2",
@@ -318,6 +294,22 @@
         "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(WSNS)/master.mpd",
         "k1": "7d6bb9f86e133e4cb33440b493b6b672",
         "k2": "584ad285dcb9e7d42cf3e93f1cc3fe11"
+    },
+    "ffoxusafhd": {
+        "id": "ffoxusafhd",
+        "name": "FOX SPORTS FHD",
+        "Bearer": null,
+        "url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
+        "k1": "f6564ec2aee819046328a0e153be574d",
+        "k2": "ff46a8a1031eb27ef22576a077c98ab7"
+    },
+    "ffoxusa4k": {
+        "id": "ffoxusa4k",
+        "name": "FOX SPORTS 4k",
+        "Bearer": null,
+        "url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/0zyzcgeq2w/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd",
+        "k1": "1f68713028d439ec03be07f56c1d6213",
+        "k2": "20093db6455160fffed4c394def3193d"
     },
     "fmatchfootball": {
         "id": "fmatchfootball",
@@ -343,14 +335,6 @@
         "k1": "893bc63340876605f52886a42e0ccce5",
         "k2": "d6c46d2d691056fbd091bf1f01b21a91"
     },
-    "fcazetvprime": {
-        "id": "fcazetvprime",
-        "name": "CAZE TV - AQ [BR]",
-        "Bearer": null,
-        "url": "https://a121aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/a6bxtdgxts/out/v1/691e8c4b528d4e45b893a9e2e516211b/cenc.mpd",
-        "k1": "9752ef72590ef441ffa3731e0486fbc0",
-        "k2": "db63ec7b9f11348b7cc6808a54c99457"
-    },
     "fzdfgerman": {
         "id": "fzdfgerman",
         "name": "ZDF GERMAN HD",
@@ -358,6 +342,22 @@
         "url": "https://simplitv-live.mdn.ors.at/live/eds/zdf_hd/dash4h/zdf_hd.mpd",
         "k1": "c1a0ac1044a433d0856ccdc08f245084",
         "k2": "7f0e8800a6d63d7915ac181bb88ce813"
+    },
+    "forfgerman": {
+        "id": "forfgerman",
+        "name": "ORF GERMAN HD",
+        "Bearer": null,
+        "url": "https://simplitv-live.mdn.ors.at/live/eds/orf_1_hd-1/dash4h/orf_1_hd-1.mpd",
+        "k1": "429bcf031bbf3146a67f3f583e4c4355",
+        "k2": "d1b92aba5a38a518c8b8a1fd2bca4398"
+    },
+    "fcazetvprime": {
+        "id": "fcazetvprime",
+        "name": "CAZE TV - AQ [BR]",
+        "Bearer": null,
+        "url": "https://a121aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/a6bxtdgxts/out/v1/691e8c4b528d4e45b893a9e2e516211b/cenc.mpd",
+        "k1": "9752ef72590ef441ffa3731e0486fbc0",
+        "k2": "db63ec7b9f11348b7cc6808a54c99457"
     },
     "funite8sports1hd": {
         "id": "funite8sports1hd",
@@ -374,13 +374,5 @@
         "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
         "k1": "a84eb885331f7b3d744b10ced1a9dd8b",
         "k2": "ff626d44d51e2d2d9802ef83a1d28437"
-    },
-    "fjojsportaq": {
-        "id": "fjojsportaq",
-        "name": "JOJ SPORT - AQ",
-        "Bearer": null,
-        "url": "https://dash2.antik.sk/stream/nvidia_joj_sport/playlist_cenc.mpd",
-        "k1": "11223344556677889900112233445566",
-        "k2": "4b80724d0ef86bcb2c21f7999d67739d"
     }
 }
