@@ -239,6 +239,14 @@
         "k1": "ce7ab3022e753307997f58afe001bac4",
         "k2": "72d631a66e635c60829a0fe7705516c1"
     },
+    "ftipikfr": {
+        "id": "ftipikfr",
+        "name": "TIPIK FR - AQ",
+        "Bearer": null,
+        "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
+        "k1": "adca25b8779e4168a0cd710f59f61ccf",
+        "k2": "be5383ed3cd8079f4ffe78ad067f476a"
+    },
     "fcgpenglishaq": {
         "id": "fcgpenglishaq",
         "name": "CGP ENGLISH - AQ",
@@ -262,14 +270,6 @@
         "url": "https://otte-qw.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
         "k1": "14eeabf30c14b7fbf3008c03099ce011",
         "k2": "17d2ac8dbc5429bd70af3433aa12158d"
-    },
-    "ftipikfr": {
-        "id": "ftipikfr",
-        "name": "TIPIK FR - AQ",
-        "Bearer": null,
-        "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
-        "k1": "adca25b8779e4168a0cd710f59f61ccf",
-        "k2": "be5383ed3cd8079f4ffe78ad067f476a"
     },
     "fm6": {
         "id": "fm6",
@@ -398,5 +398,13 @@
         "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
         "k1": "a84eb885331f7b3d744b10ced1a9dd8b",
         "k2": "ff626d44d51e2d2d9802ef83a1d28437"
+    },
+    "fctvsports": {
+        "id": "fctvsports",
+        "name": "CTV SPORTS - AQ",
+        "Bearer": null,
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rcgdlutvzh/out/v1/d08fb8f93d8142be9ae3305e3c953694/cenc.mpd",
+        "k1": "1fb1ab890f1b9392db40321042ad194b",
+        "k2": "7c9d16a71ccdb3ced4ff1344c8c75d67"
     }
 }
