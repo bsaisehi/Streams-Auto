@@ -231,14 +231,6 @@
         "k1": null,
         "k2": null
     },
-    "ffoxenglishhd": {
-        "id": "ffoxenglishhd",
-        "name": "FOX ENGLISH HD",
-        "Bearer": null,
-        "url": "https://otte-qw.live.pv-cdn.net/iad-nitro/live/dash/enc/ap5wz1ofsp/out/v1/7fa6feef143747beaa186ebb6dfb2532/cenc.mpd",
-        "k1": "c620c93c60c04999eb9ddc28ecfb70a8",
-        "k2": "e76a709c251313190e76cb3c3d3a5824"
-    },
     "ftelemundoaq[es]": {
         "id": "ftelemundoaq[es]",
         "name": "TELEMUNDO - AQ [ES]",
@@ -271,14 +263,6 @@
         "k1": "14eeabf30c14b7fbf3008c03099ce011",
         "k2": "17d2ac8dbc5429bd70af3433aa12158d"
     },
-    "ffoxusafhd": {
-        "id": "ffoxusafhd",
-        "name": "FOX SPORTS FHD",
-        "Bearer": null,
-        "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
-        "k1": "f6564ec2aee819046328a0e153be574d",
-        "k2": "ff46a8a1031eb27ef22576a077c98ab7"
-    },
     "ftipikfr": {
         "id": "ftipikfr",
         "name": "TIPIK FR - AQ",
@@ -294,6 +278,22 @@
         "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd",
         "k1": "433ffba670963e70857859a9dff4be04",
         "k2": "51ede3a821229fe81e71282c8eff80e3"
+    },
+    "ffoxenglishhd": {
+        "id": "ffoxenglishhd",
+        "name": "FOX ENGLISH HD",
+        "Bearer": null,
+        "url": "https://otte-qw.live.pv-cdn.net/iad-nitro/live/dash/enc/ap5wz1ofsp/out/v1/7fa6feef143747beaa186ebb6dfb2532/cenc.mpd",
+        "k1": "c620c93c60c04999eb9ddc28ecfb70a8",
+        "k2": "e76a709c251313190e76cb3c3d3a5824"
+    },
+    "ffoxusafhd": {
+        "id": "ffoxusafhd",
+        "name": "FOX SPORTS FHD",
+        "Bearer": null,
+        "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
+        "k1": "f6564ec2aee819046328a0e153be574d",
+        "k2": "ff46a8a1031eb27ef22576a077c98ab7"
     },
     "fdsports": {
         "id": "fdsports",
