@@ -13,8 +13,8 @@
             "name": "Hindi",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
-            "k1": "11cf38326a3d48548d4109b74443c035",
-            "k2": "1019b110f76f8eb4f925cad852f18962"
+            "k1": "9dd5f61a6ab4ded80012077d386dfa71",
+            "k2": "594ffa64ab2822058165b35cbcab24bf"
         },
         "u": {
             "id": "u",
@@ -336,9 +336,9 @@
             "id": "cazetvprime",
             "name": "CAZE TV - AQ [BR]",
             "Bearer": null,
-            "url": "https://otte-tim.live.pv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd",
-            "k1": "ac7abaa9c9481aacfbdac64fc3ec3312",
-            "k2": "c0c504a2ed2e70b879a650b8770a38c6"
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/epg9sw6owc/out/v1/e50aecefcb294fae85d6b343e0a6f1cc/cenc.mpd",
+            "k1": "9752ef72590ef441ffa3731e0486fbc0",
+            "k2": "db63ec7b9f11348b7cc6808a54c99457"
         },
         "ctsports": {
             "id": "ctsports",
