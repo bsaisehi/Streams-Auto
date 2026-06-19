@@ -308,6 +308,22 @@
             "k1": "9145a6e0f778e61866f573d4944dd533",
             "k2": "d02173d40515fea5c83944f21d0f3114"
         },
+        "ctsports": {
+            "id": "ctsports",
+            "name": "CT SPORTS - AQ",
+            "Bearer": null,
+            "url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
+            "k1": "11223344556677889900112233445566",
+            "k2": "4b80724d0ef86bcb2c21f7999d67739d"
+        },
+        "tvppolish": {
+            "id": "tvppolish",
+            "name": "TVP POLISH FHD",
+            "Bearer": null,
+            "url": "https://estreams.tv.nej.cz/dash/CH_TVP_SPORT_Portable.ism/playlist.mpd",
+            "k1": null,
+            "k2": null
+        },
         "dsports": {
             "id": "dsports",
             "name": "D SPORTS - AQ [ES]",
@@ -356,14 +372,6 @@
             "k1": "1710ac2bbfcd3032d0f6533850968f47",
             "k2": "d2548dacc8efcd1cd0af0373060c82dc"
         },
-        "ctsports": {
-            "id": "ctsports",
-            "name": "CT SPORTS - AQ",
-            "Bearer": null,
-            "url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
-            "k1": "11223344556677889900112233445566",
-            "k2": "4b80724d0ef86bcb2c21f7999d67739d"
-        },
         "telemundo2": {
             "id": "telemundo2",
             "name": "TELEMUNDO SPANISH",
@@ -379,14 +387,6 @@
             "url": "https://live.vrtcdn.be/groupd/live/0761024f-37fe-4254-bc37-e95d7c62b2d1/live.isml/.mpd",
             "k1": "893bc63340876605f52886a42e0ccce5",
             "k2": "d6c46d2d691056fbd091bf1f01b21a91"
-        },
-        "tvppolish": {
-            "id": "tvppolish",
-            "name": "TVP POLISH FHD",
-            "Bearer": null,
-            "url": "https://estreams.tv.nej.cz/dash/CH_TVP_SPORT_Portable.ism/playlist.mpd",
-            "k1": null,
-            "k2": null
         },
         "zdfgerman": {
             "id": "zdfgerman",
