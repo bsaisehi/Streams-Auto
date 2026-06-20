@@ -292,6 +292,14 @@
             "k1": "d816287e21496989eae1312925a423c5",
             "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
         },
+        "vixmundialaq": {
+            "id": "vixmundialaq",
+            "name": "VIX-MUNDIAL - AQ",
+            "Bearer": null,
+            "url": "https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-90-HD/default.mpd",
+            "k1": "75074a0cbd83f5b72fb3e5c1495252a9",
+            "k2": "a4a0df04b2d28f2160cead2ecdeb7203"
+        },
         "cgpenglishaq": {
             "id": "cgpenglishaq",
             "name": "CGP ENGLISH - AQ",
