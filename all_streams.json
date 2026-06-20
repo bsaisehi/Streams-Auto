@@ -13,16 +13,16 @@
             "name": "Hindi",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
-            "k1": "9dd5f61a6ab4ded80012077d386dfa71",
-            "k2": "594ffa64ab2822058165b35cbcab24bf"
+            "k1": "11cf38326a3d48548d4109b74443c035",
+            "k2": "1019b110f76f8eb4f925cad852f18962"
         },
         "u": {
             "id": "u",
             "name": "English ",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd14/dth.mpd",
-            "k1": "48c50606538919784866f94fb46156e4",
-            "k2": "67f809f98803869d9353555a87e636ab"
+            "k1": "909444d859b8a77b1ac8d64e84203027",
+            "k2": "bb5dc80d180e817a8beb0d6127f9767b"
         },
         "fs1": {
             "id": "fs1",
