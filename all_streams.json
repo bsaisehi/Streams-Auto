@@ -332,6 +332,14 @@
             "k1": "34475edab991ad5e92548aebd710410a",
             "k2": "501b209cccd323ac00bf5ac15b406cb4"
         },
+        "sporzasports": {
+            "id": "sporzasports",
+            "name": "SPORZA SPORTS",
+            "Bearer": null,
+            "url": "https://live.vrtcdn.be/groupd/live/0761024f-37fe-4254-bc37-e95d7c62b2d1/playout.isml/.mpd",
+            "k1": "7c0a14fc7dc3c641af8cb6506431a628",
+            "k2": "f318ff7c01cca20c4a5b3d91074ca460"
+        },
         "ctvsports": {
             "id": "ctvsports",
             "name": "CTV SPORTS - AQ",
@@ -363,14 +371,6 @@
             "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(WSNS)/master.mpd",
             "k1": "7d6bb9f86e133e4cb33440b493b6b672",
             "k2": "584ad285dcb9e7d42cf3e93f1cc3fe11"
-        },
-        "sporzasports": {
-            "id": "sporzasports",
-            "name": "SPORZA SPORTS",
-            "Bearer": null,
-            "url": "https://live.vrtcdn.be/groupd/live/0761024f-37fe-4254-bc37-e95d7c62b2d1/live.isml/.mpd",
-            "k1": "893bc63340876605f52886a42e0ccce5",
-            "k2": "d6c46d2d691056fbd091bf1f01b21a91"
         },
         "zdfgerman": {
             "id": "zdfgerman",
