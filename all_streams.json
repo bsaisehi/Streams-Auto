@@ -324,27 +324,27 @@
             "k1": null,
             "k2": null
         },
-        "vixtudnes": {
-            "id": "vixtudnes",
-            "name": "VIX TUDN ES",
+        "dsports": {
+            "id": "dsports",
+            "name": "D SPORTS - AQ [ES]",
             "Bearer": null,
-            "url": "https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-90-HD/default.mpd",
-            "k1": "75074a0cbd83f5b72fb3e5c1495252a9",
-            "k2": "a4a0df04b2d28f2160cead2ecdeb7203"
+            "url": "https://otte-qw.live.pv-cdn.net/gru-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
+            "k1": "f8b207c10f3f76aeba32a360ec52b9e4",
+            "k2": "afad49d20eb39670e93e371c1d669921"
         },
         "cazetvprime": {
             "id": "cazetvprime",
             "name": "CAZE TV - AQ [BR]",
             "Bearer": null,
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/epg9sw6owc/out/v1/e50aecefcb294fae85d6b343e0a6f1cc/cenc.mpd",
-            "k1": "9752ef72590ef441ffa3731e0486fbc0",
-            "k2": "db63ec7b9f11348b7cc6808a54c99457"
+            "url": "https://a121aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/jo3rmhhp2r/out/v1/50656942ce4e40a1be824c9d83578fe9/cenc.mpd",
+            "k1": "34475edab991ad5e92548aebd710410a",
+            "k2": "501b209cccd323ac00bf5ac15b406cb4"
         },
         "ctvsports": {
             "id": "ctvsports",
             "name": "CTV SPORTS - AQ",
             "Bearer": null,
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rcgdlutvzh/out/v1/d08fb8f93d8142be9ae3305e3c953694/cenc.mpd",
+            "url": "https://otte-qw.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/rcgdlutvzh/out/v1/d08fb8f93d8142be9ae3305e3c953694/cenc.mpd",
             "k1": "1fb1ab890f1b9392db40321042ad194b",
             "k2": "7c9d16a71ccdb3ced4ff1344c8c75d67"
         },
@@ -363,14 +363,6 @@
             "url": "https://a35live-pv-ta-amazon.akamaized.net/iad-nitro/live/clients/dash/enc/pfcxjf1zas/out/v1/31d30c91fc65458789b84209d3fa22e4/cenc.mpd",
             "k1": "1f68713028d439ec03be07f56c1d6213",
             "k2": "20093db6455160fffed4c394def3193d"
-        },
-        "tudnespanolaq": {
-            "id": "tudnespanolaq",
-            "name": "TUDN ESPANOL - AQ",
-            "Bearer": null,
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/8u9cregwlt/out/v1/687f6b2a559943549be271504a948ffd/cenc.mpd",
-            "k1": "1710ac2bbfcd3032d0f6533850968f47",
-            "k2": "d2548dacc8efcd1cd0af0373060c82dc"
         },
         "telemundo2": {
             "id": "telemundo2",
@@ -408,7 +400,7 @@
             "id": "sportvbraq",
             "name": "SporTV BR - AQ",
             "Bearer": null,
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tvezxbddeg/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+            "url": "https://otte-qw.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/tvezxbddeg/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
             "k1": "cb5eaea6d91fc8a702f154cefd69c976",
             "k2": "fd4b69623da596aac100e5722d8a1ca0"
         },
