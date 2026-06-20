@@ -356,29 +356,13 @@
             "k1": "1f68713028d439ec03be07f56c1d6213",
             "k2": "20093db6455160fffed4c394def3193d"
         },
-        "telemundo2": {
-            "id": "telemundo2",
-            "name": "TELEMUNDO SPANISH",
+        "telemundoesusa": {
+            "id": "telemundoesusa",
+            "name": "TELEMUNDO ES USA",
             "Bearer": null,
             "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(WSNS)/master.mpd",
             "k1": "7d6bb9f86e133e4cb33440b493b6b672",
             "k2": "584ad285dcb9e7d42cf3e93f1cc3fe11"
-        },
-        "zdfgerman": {
-            "id": "zdfgerman",
-            "name": "ZDF GERMAN HD",
-            "Bearer": null,
-            "url": "https://simplitv-live.mdn.ors.at/live/eds/zdf_hd/dash4h/zdf_hd.mpd",
-            "k1": "c1a0ac1044a433d0856ccdc08f245084",
-            "k2": "7f0e8800a6d63d7915ac181bb88ce813"
-        },
-        "orfgerman": {
-            "id": "orfgerman",
-            "name": "ORF GERMAN HD",
-            "Bearer": null,
-            "url": "https://simplitv-live.mdn.ors.at/live/eds/orf_1_hd-1/dash4h/orf_1_hd-1.mpd",
-            "k1": "429bcf031bbf3146a67f3f583e4c4355",
-            "k2": "d1b92aba5a38a518c8b8a1fd2bca4398"
         },
         "sportvbraq": {
             "id": "sportvbraq",
