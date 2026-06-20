@@ -276,14 +276,6 @@
             "k1": "34475edab991ad5e92548aebd710410a",
             "k2": "501b209cccd323ac00bf5ac15b406cb4"
         },
-        "rteenglishhd": {
-            "id": "rteenglishhd",
-            "name": "RTE ENGLISH HD",
-            "Bearer": null,
-            "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
-            "k1": "d816287e21496989eae1312925a423c5",
-            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
-        },
         "m6": {
             "id": "m6",
             "name": "M6 FRANCE - AQ [No delay]",
@@ -307,6 +299,14 @@
             "url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
             "k1": "11223344556677889900112233445566",
             "k2": "4b80724d0ef86bcb2c21f7999d67739d"
+        },
+        "rteenglishhd": {
+            "id": "rteenglishhd",
+            "name": "RTE ENGLISH HD",
+            "Bearer": null,
+            "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
+            "k1": "d816287e21496989eae1312925a423c5",
+            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
         },
         "cgpenglishaq": {
             "id": "cgpenglishaq",
@@ -379,6 +379,14 @@
             "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/pp_ch2_pri/default/index.mpd",
             "k1": "4fef00332d7e4fbc8f7005dfbf851a59",
             "k2": "a6368c181358f3e527411a6c452c6a1a"
+        },
+        "jojsportsaq": {
+            "id": "jojsportsaq",
+            "name": "JOJ SPORTS - AQ",
+            "Bearer": null,
+            "url": "https://dash2.antik.sk/stream/nvidia_joj_sport/playlist_cenc.mpd",
+            "k1": "11223344556677889900112233445566",
+            "k2": "4b80724d0ef86bcb2c21f7999d67739d"
         }
     }
 }
