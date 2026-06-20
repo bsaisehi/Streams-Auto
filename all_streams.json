@@ -260,14 +260,6 @@
             "k1": "14eeabf30c14b7fbf3008c03099ce011",
             "k2": "17d2ac8dbc5429bd70af3433aa12158d"
         },
-        "m6": {
-            "id": "m6",
-            "name": "M6 FRANCE - AQ [No delay]",
-            "Bearer": null,
-            "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd",
-            "k1": "433ffba670963e70857859a9dff4be04",
-            "k2": "51ede3a821229fe81e71282c8eff80e3"
-        },
         "tipikfr": {
             "id": "tipikfr",
             "name": "TIPIK FR - AQ",
@@ -328,7 +320,7 @@
             "id": "dsports",
             "name": "D SPORTS - AQ [ES]",
             "Bearer": null,
-            "url": "https://otte-qw.live.pv-cdn.net/gru-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
             "k1": "f8b207c10f3f76aeba32a360ec52b9e4",
             "k2": "afad49d20eb39670e93e371c1d669921"
         },
@@ -336,7 +328,7 @@
             "id": "cazetvprime",
             "name": "CAZE TV - AQ [BR]",
             "Bearer": null,
-            "url": "https://a121aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/jo3rmhhp2r/out/v1/50656942ce4e40a1be824c9d83578fe9/cenc.mpd",
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd",
             "k1": "34475edab991ad5e92548aebd710410a",
             "k2": "501b209cccd323ac00bf5ac15b406cb4"
         },
@@ -344,7 +336,7 @@
             "id": "ctvsports",
             "name": "CTV SPORTS - AQ",
             "Bearer": null,
-            "url": "https://otte-qw.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/rcgdlutvzh/out/v1/d08fb8f93d8142be9ae3305e3c953694/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rcgdlutvzh/out/v1/d08fb8f93d8142be9ae3305e3c953694/cenc.mpd",
             "k1": "1fb1ab890f1b9392db40321042ad194b",
             "k2": "7c9d16a71ccdb3ced4ff1344c8c75d67"
         },
@@ -400,7 +392,7 @@
             "id": "sportvbraq",
             "name": "SporTV BR - AQ",
             "Bearer": null,
-            "url": "https://otte-qw.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/tvezxbddeg/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tvezxbddeg/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
             "k1": "cb5eaea6d91fc8a702f154cefd69c976",
             "k2": "fd4b69623da596aac100e5722d8a1ca0"
         },
