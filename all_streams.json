@@ -352,7 +352,7 @@
             "id": "foxusa4k",
             "name": "FOX SPORTS 4k",
             "Bearer": null,
-            "url": "https://a35live-pv-ta-amazon.akamaized.net/iad-nitro/live/clients/dash/enc/pfcxjf1zas/out/v1/31d30c91fc65458789b84209d3fa22e4/cenc.mpd",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/buf9inoetu/out/v1/31d30c91fc65458789b84209d3fa22e4/cenc.mpd",
             "k1": "1f68713028d439ec03be07f56c1d6213",
             "k2": "20093db6455160fffed4c394def3193d"
         },
