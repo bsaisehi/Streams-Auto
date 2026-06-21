@@ -276,13 +276,21 @@
             "k1": "11223344556677889900112233445566",
             "k2": "4b80724d0ef86bcb2c21f7999d67739d"
         },
+        "m6": {
+            "id": "m6",
+            "name": "M6 FRANCE - AQ [No delay]",
+            "Bearer": null,
+            "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd",
+            "k1": "433ffba670963e70857859a9dff4be04",
+            "k2": "51ede3a821229fe81e71282c8eff80e3"
+        },
         "cazetvprime": {
             "id": "cazetvprime",
             "name": "CAZE TV - AQ [BR]",
             "Bearer": null,
-            "url": "https://otte-qw.live.pv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd",
-            "k1": "ac7abaa9c9481aacfbdac64fc3ec3312",
-            "k2": "c0c504a2ed2e70b879a650b8770a38c6"
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd",
+            "k1": "34475edab991ad5e92548aebd710410a",
+            "k2": "501b209cccd323ac00bf5ac15b406cb4"
         },
         "rteenglishhd": {
             "id": "rteenglishhd",
