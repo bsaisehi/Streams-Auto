@@ -13,16 +13,16 @@
             "name": "Hindi",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
-            "k1": "11cf38326a3d48548d4109b74443c035",
-            "k2": "1019b110f76f8eb4f925cad852f18962"
+            "k1": "2222736236852bd796dd51dbc3a3c093",
+            "k2": "4940b6fcbb478d95564560e24dbb48ee"
         },
         "u": {
             "id": "u",
             "name": "English ",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd14/dth.mpd",
-            "k1": "1f0fd4fab58cf1728389c63cc288935c",
-            "k2": "1bad36417c0ca4a0c20c3b8b28e6d024"
+            "k1": "612d143654865cc082377241c9e781cf",
+            "k2": "de56b953acf72d9920cf45bcbb59c891"
         },
         "fs1": {
             "id": "fs1",
@@ -159,16 +159,16 @@
             "name": "HINDI Unite8 Sports 2HD",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd14/dth.mpd",
-            "k1": "1f0fd4fab58cf1728389c63cc288935c",
-            "k2": "1bad36417c0ca4a0c20c3b8b28e6d024"
+            "k1": "612d143654865cc082377241c9e781cf",
+            "k2": "de56b953acf72d9920cf45bcbb59c891"
         },
         "h": {
             "id": "h",
             "name": "English Unite8 Sports 1HD",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
-            "k1": "11cf38326a3d48548d4109b74443c035",
-            "k2": "1019b110f76f8eb4f925cad852f18962"
+            "k1": "2222736236852bd796dd51dbc3a3c093",
+            "k2": "4940b6fcbb478d95564560e24dbb48ee"
         },
         "ios": {
             "id": "ios",
