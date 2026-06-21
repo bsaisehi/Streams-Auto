@@ -260,6 +260,14 @@
             "k1": "14eeabf30c14b7fbf3008c03099ce011",
             "k2": "17d2ac8dbc5429bd70af3433aa12158d"
         },
+        "rteenglishhd": {
+            "id": "rteenglishhd",
+            "name": "RTE ENGLISH HD",
+            "Bearer": null,
+            "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
+            "k1": "d816287e21496989eae1312925a423c5",
+            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
+        },
         "foxusafhd": {
             "id": "foxusafhd",
             "name": "FOX SPORTS FHD",
@@ -284,6 +292,14 @@
             "k1": "433ffba670963e70857859a9dff4be04",
             "k2": "51ede3a821229fe81e71282c8eff80e3"
         },
+        "vixspanishaq": {
+            "id": "vixspanishaq",
+            "name": "VIX SPANISH - AQ",
+            "Bearer": null,
+            "url": "https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-90-HD/default.mpd",
+            "k1": "75074a0cbd83f5b72fb3e5c1495252a9",
+            "k2": "a4a0df04b2d28f2160cead2ecdeb7203"
+        },
         "cazetvprime": {
             "id": "cazetvprime",
             "name": "CAZE TV - AQ [BR]",
@@ -291,14 +307,6 @@
             "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd",
             "k1": "34475edab991ad5e92548aebd710410a",
             "k2": "501b209cccd323ac00bf5ac15b406cb4"
-        },
-        "rteenglishhd": {
-            "id": "rteenglishhd",
-            "name": "RTE ENGLISH HD",
-            "Bearer": null,
-            "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
-            "k1": "d816287e21496989eae1312925a423c5",
-            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
         },
         "dsports": {
             "id": "dsports",
