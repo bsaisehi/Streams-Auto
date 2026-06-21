@@ -260,13 +260,13 @@
             "k1": "14eeabf30c14b7fbf3008c03099ce011",
             "k2": "17d2ac8dbc5429bd70af3433aa12158d"
         },
-        "rteenglishhd": {
-            "id": "rteenglishhd",
-            "name": "RTE ENGLISH HD",
+        "cazetvprime": {
+            "id": "cazetvprime",
+            "name": "CAZE TV - AQ [BR]",
             "Bearer": null,
-            "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
-            "k1": "d816287e21496989eae1312925a423c5",
-            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd",
+            "k1": "34475edab991ad5e92548aebd710410a",
+            "k2": "501b209cccd323ac00bf5ac15b406cb4"
         },
         "foxusafhd": {
             "id": "foxusafhd",
@@ -276,14 +276,6 @@
             "k1": "f6564ec2aee819046328a0e153be574d",
             "k2": "ff46a8a1031eb27ef22576a077c98ab7"
         },
-        "jojsports": {
-            "id": "jojsports",
-            "name": "JOJ SPORTS",
-            "Bearer": null,
-            "url": "https://dash2.antik.sk/stream/nvidia_joj_sport/playlist_cenc.mpd",
-            "k1": "11223344556677889900112233445566",
-            "k2": "4b80724d0ef86bcb2c21f7999d67739d"
-        },
         "m6": {
             "id": "m6",
             "name": "M6 FRANCE - AQ [No delay]",
@@ -292,22 +284,6 @@
             "k1": "433ffba670963e70857859a9dff4be04",
             "k2": "51ede3a821229fe81e71282c8eff80e3"
         },
-        "vixspanishaq": {
-            "id": "vixspanishaq",
-            "name": "VIX SPANISH - AQ",
-            "Bearer": null,
-            "url": "https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-90-HD/default.mpd",
-            "k1": "75074a0cbd83f5b72fb3e5c1495252a9",
-            "k2": "a4a0df04b2d28f2160cead2ecdeb7203"
-        },
-        "cazetvprime": {
-            "id": "cazetvprime",
-            "name": "CAZE TV - AQ [BR]",
-            "Bearer": null,
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd",
-            "k1": "34475edab991ad5e92548aebd710410a",
-            "k2": "501b209cccd323ac00bf5ac15b406cb4"
-        },
         "dsports": {
             "id": "dsports",
             "name": "D SPORTS - AQ [ES]",
@@ -315,6 +291,38 @@
             "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
             "k1": "f8b207c10f3f76aeba32a360ec52b9e4",
             "k2": "afad49d20eb39670e93e371c1d669921"
+        },
+        "canalspanish": {
+            "id": "canalspanish",
+            "name": "CANAL SPANISH",
+            "Bearer": null,
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd",
+            "k1": "d695093ea3e66d75a4d213a3e2cbf360",
+            "k2": "01be3f645e89a067d2786c295f68dde4"
+        },
+        "rteenglishaq": {
+            "id": "rteenglishaq",
+            "name": "RTE ENGLISH - AQ",
+            "Bearer": null,
+            "url": "https://dai.google.com/linear/dash/event/antwa0EiQm2PoHtx4rBtVw/manifest.mpd",
+            "k1": "d816287e21496989eae1312925a423c5",
+            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
+        },
+        "jojsports": {
+            "id": "jojsports",
+            "name": "JOJ SPORTS",
+            "Bearer": null,
+            "url": "https://dash2.antik.sk/stream/nvidia_joj_sport/playlist_cenc.mpd",
+            "k1": "11223344556677889900112233445566",
+            "k2": "4b80724d0ef86bcb2c21f7999d67739d"
+        },
+        "vixspanishaq": {
+            "id": "vixspanishaq",
+            "name": "VIX SPANISH - AQ",
+            "Bearer": null,
+            "url": "https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-90-HD/default.mpd",
+            "k1": "75074a0cbd83f5b72fb3e5c1495252a9",
+            "k2": "a4a0df04b2d28f2160cead2ecdeb7203"
         },
         "sporzasports": {
             "id": "sporzasports",
@@ -379,6 +387,14 @@
             "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/pp_ch2_pri/default/index.mpd",
             "k1": "4fef00332d7e4fbc8f7005dfbf851a59",
             "k2": "a6368c181358f3e527411a6c452c6a1a"
+        },
+        "fussballtv4k": {
+            "id": "fussballtv4k",
+            "name": "FUSSBALL TV 4K",
+            "Bearer": null,
+            "url": "https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_1_UHD/default/index.mpd",
+            "k1": "4f558eae1b005126b2ac6e9eb1a7849e",
+            "k2": "17aea325d91b5e66f06a8c574f2f0b03"
         }
     }
 }
