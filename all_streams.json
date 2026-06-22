@@ -252,6 +252,14 @@
             "k1": "9e695f8c65d74c6a9827a2e35367c086",
             "k2": "decde9976ea76d1a91f91d9bf068f413"
         },
+        "dsports": {
+            "id": "dsports",
+            "name": "D SPORTS - AQ [ES]",
+            "Bearer": null,
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
+            "k1": "f8b207c10f3f76aeba32a360ec52b9e4",
+            "k2": "afad49d20eb39670e93e371c1d669921"
+        },
         "sportvbraq": {
             "id": "sportvbraq",
             "name": "SporTV BR - AQ",
@@ -267,14 +275,6 @@
             "url": "https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-90-HD/default.mpd",
             "k1": "75074a0cbd83f5b72fb3e5c1495252a9",
             "k2": "a4a0df04b2d28f2160cead2ecdeb7203"
-        },
-        "dsports": {
-            "id": "dsports",
-            "name": "D SPORTS - AQ [ES]",
-            "Bearer": null,
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
-            "k1": "f8b207c10f3f76aeba32a360ec52b9e4",
-            "k2": "afad49d20eb39670e93e371c1d669921"
         },
         "cazetvprime": {
             "id": "cazetvprime",
