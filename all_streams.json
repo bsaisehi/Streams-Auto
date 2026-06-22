@@ -244,14 +244,6 @@
         }
     },
     "fifa": {
-        "dsports": {
-            "id": "dsports",
-            "name": "D SPORTS - AQ [ES]",
-            "Bearer": null,
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ubehitlwzo/out/v1/8e09c381a51f4366a19e979418112e8f/cenc.mpd",
-            "k1": "a7d11d37a1f7611ee88d4db880171f32",
-            "k2": "68f96d618b0b956b008c445896a25a79"
-        },
         "ctsports": {
             "id": "ctsports",
             "name": "CT SPORTS - AQ",
@@ -268,13 +260,13 @@
             "k1": "adca25b8779e4168a0cd710f59f61ccf",
             "k2": "be5383ed3cd8079f4ffe78ad067f476a"
         },
-        "unite8sports2hd": {
-            "id": "unite8sports2hd",
-            "name": "UNITE8 HINDI - IN",
+        "dsports": {
+            "id": "dsports",
+            "name": "D SPORTS - AQ [ES]",
             "Bearer": null,
-            "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
-            "k1": "a84eb885331f7b3d744b10ced1a9dd8b",
-            "k2": "ff626d44d51e2d2d9802ef83a1d28437"
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
+            "k1": "f8b207c10f3f76aeba32a360ec52b9e4",
+            "k2": "afad49d20eb39670e93e371c1d669921"
         },
         "tvela1spanish": {
             "id": "tvela1spanish",
@@ -300,9 +292,9 @@
             "k1": "cb5eaea6d91fc8a702f154cefd69c976",
             "k2": "fd4b69623da596aac100e5722d8a1ca0"
         },
-        "beinsportsaq": {
-            "id": "beinsportsaq",
-            "name": "BEIN SPORTS - AQ",
+        "fifatvaq": {
+            "id": "fifatvaq",
+            "name": "FIFA TV  - AQ",
             "Bearer": null,
             "url": "https://sh-bks400-11.starhubgo.com/bpk-token/1aa@io0tjez2jpgrepyrzfonfuhtikst4mcji0yijuba/bpk-tv/FIFAWCCh1/output/manifest.mpd",
             "k1": "9e695f8c65d74c6a9827a2e35367c086",
@@ -419,6 +411,14 @@
             "url": "https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd",
             "k1": "2a8c2d5088377f51f825d871e568be19",
             "k2": "eb5a8db64ca1992389672edb9447c711"
+        },
+        "unite8sports2hd": {
+            "id": "unite8sports2hd",
+            "name": "UNITE8 HINDI - IN",
+            "Bearer": null,
+            "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
+            "k1": "a84eb885331f7b3d744b10ced1a9dd8b",
+            "k2": "ff626d44d51e2d2d9802ef83a1d28437"
         }
     }
 }
