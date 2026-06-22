@@ -268,14 +268,6 @@
             "k1": "14eeabf30c14b7fbf3008c03099ce011",
             "k2": "17d2ac8dbc5429bd70af3433aa12158d"
         },
-        "foxusafhd": {
-            "id": "foxusafhd",
-            "name": "FOX SPORTS FHD",
-            "Bearer": null,
-            "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
-            "k1": "f6564ec2aee819046328a0e153be574d",
-            "k2": "ff46a8a1031eb27ef22576a077c98ab7"
-        },
         "sportvbraq": {
             "id": "sportvbraq",
             "name": "SporTV BR - AQ",
@@ -371,6 +363,30 @@
             "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(WSNS)/master.mpd",
             "k1": "7d6bb9f86e133e4cb33440b493b6b672",
             "k2": "584ad285dcb9e7d42cf3e93f1cc3fe11"
+        },
+        "foxprimeengusavpn": {
+            "id": "foxprimeengusavpn",
+            "name": "FOX PRIME ENG [USA VPN]",
+            "Bearer": null,
+            "url": "https://otte-azion.live.pv-cdn.net/iad-nitro/live/clients/enc/pp9fyo4pdg/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
+            "k1": "f6564ec2aee819046328a0e153be574d",
+            "k2": "ff46a8a1031eb27ef22576a077c98ab7"
+        },
+        "telemundo": {
+            "id": "telemundo",
+            "name": "TELEMUNDO - AQ",
+            "Bearer": null,
+            "url": "https://cun-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/default.mpd",
+            "k1": "1efe4add8fdf327c5f8d2a1c195e5c71",
+            "k2": "4f50e6f011e60ca01ee561f27187e78f"
+        },
+        "canalsports": {
+            "id": "canalsports",
+            "name": "CANAL SPORTS",
+            "Bearer": null,
+            "url": "https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd",
+            "k1": "2a8c2d5088377f51f825d871e568be19",
+            "k2": "eb5a8db64ca1992389672edb9447c711"
         }
     }
 }
