@@ -244,13 +244,13 @@
         }
     },
     "fifa": {
-        "beinsportsaq": {
-            "id": "beinsportsaq",
-            "name": "BEIN SPORTS - AQ",
+        "tvela1spanish": {
+            "id": "tvela1spanish",
+            "name": "TVE La1 SPANISH",
             "Bearer": null,
-            "url": "https://sh-bks400-11.starhubgo.com/bpk-token/1aa@io0tjez2jpgrepyrzfonfuhtikst4mcji0yijuba/bpk-tv/FIFAWCCh1/output/manifest.mpd",
-            "k1": "9e695f8c65d74c6a9827a2e35367c086",
-            "k2": "decde9976ea76d1a91f91d9bf068f413"
+            "url": "https://bia-cf.live.pv-cdn.net/sin-nitro/live/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
+            "k1": "745cd6ec34a58f2f7ac2af35dc3da6d2",
+            "k2": "ae008f1e47e6567fe4201a6ff8f1ae54"
         },
         "dsports": {
             "id": "dsports",
@@ -260,6 +260,14 @@
             "k1": "f8b207c10f3f76aeba32a360ec52b9e4",
             "k2": "afad49d20eb39670e93e371c1d669921"
         },
+        "vixspanishaq": {
+            "id": "vixspanishaq",
+            "name": "VIX SPANISH - AQ",
+            "Bearer": null,
+            "url": "https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-90-HD/default.mpd",
+            "k1": "75074a0cbd83f5b72fb3e5c1495252a9",
+            "k2": "a4a0df04b2d28f2160cead2ecdeb7203"
+        },
         "sportvbraq": {
             "id": "sportvbraq",
             "name": "SporTV BR - AQ",
@@ -268,13 +276,13 @@
             "k1": "cb5eaea6d91fc8a702f154cefd69c976",
             "k2": "fd4b69623da596aac100e5722d8a1ca0"
         },
-        "vixspanishaq": {
-            "id": "vixspanishaq",
-            "name": "VIX SPANISH - AQ",
+        "beinsportsaq": {
+            "id": "beinsportsaq",
+            "name": "BEIN SPORTS - AQ",
             "Bearer": null,
-            "url": "https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-90-HD/default.mpd",
-            "k1": "75074a0cbd83f5b72fb3e5c1495252a9",
-            "k2": "a4a0df04b2d28f2160cead2ecdeb7203"
+            "url": "https://sh-bks400-11.starhubgo.com/bpk-token/1aa@io0tjez2jpgrepyrzfonfuhtikst4mcji0yijuba/bpk-tv/FIFAWCCh1/output/manifest.mpd",
+            "k1": "9e695f8c65d74c6a9827a2e35367c086",
+            "k2": "decde9976ea76d1a91f91d9bf068f413"
         },
         "cazetvprime": {
             "id": "cazetvprime",
@@ -291,14 +299,6 @@
             "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
             "k1": "d816287e21496989eae1312925a423c5",
             "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
-        },
-        "tvela1spanish": {
-            "id": "tvela1spanish",
-            "name": "TVE La1 SPANISH",
-            "Bearer": null,
-            "url": "https://bia-cf.live.pv-cdn.net/sin-nitro/live/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
-            "k1": "745cd6ec34a58f2f7ac2af35dc3da6d2",
-            "k2": "ae008f1e47e6567fe4201a6ff8f1ae54"
         },
         "tsnenglishaq": {
             "id": "tsnenglishaq",
