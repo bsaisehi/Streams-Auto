@@ -244,53 +244,181 @@
         }
     },
     "fifa": {
-        "fancodefhd": {
-            "id": "fancodefhd",
-            "name": "FANCODE FHD",
+        "dsports": {
+            "id": "dsports",
+            "name": "D SPORTS - AQ [ES]",
             "Bearer": null,
-            "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-            "k1": "7e9239c1982d984a002df3ed049d0756",
-            "k2": "1b8a17598129a3618535c8fb05f103fe"
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ubehitlwzo/out/v1/8e09c381a51f4366a19e979418112e8f/cenc.mpd",
+            "k1": "a7d11d37a1f7611ee88d4db880171f32",
+            "k2": "68f96d618b0b956b008c445896a25a79"
         },
-        "tntsports": {
-            "id": "tntsports",
-            "name": "TNT SPORTS",
+        "ctsports": {
+            "id": "ctsports",
+            "name": "CT SPORTS - AQ",
             "Bearer": null,
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/2szrn2y3ep/out/v1/eacd8a4207dc4f0d9661a4b085b8fdd9/cenc.mpd",
-            "k1": "12413e2c2855cfc59ce0fe6b20cc71ca",
-            "k2": "08d55a8f5fc93a9375f9b0cb2e1739ca"
+            "url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
+            "k1": "11223344556677889900112233445566",
+            "k2": "4b80724d0ef86bcb2c21f7999d67739d"
         },
-        "skysportsde": {
-            "id": "skysportsde",
-            "name": "SKY SPORTS DE",
+        "tipikfr": {
+            "id": "tipikfr",
+            "name": "TIPIK FR - AQ",
             "Bearer": null,
-            "url": "https://simplitv-live.mdn.ors.at/live/eds/sky_sport_f1_hd/dash/sky_sport_f1_hd.mpd",
-            "k1": "6695688f79dc36f7a41f7db13bff5aca",
-            "k2": "22ef689af2162aefbf745cba2adb4fe9"
+            "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
+            "k1": "adca25b8779e4168a0cd710f59f61ccf",
+            "k2": "be5383ed3cd8079f4ffe78ad067f476a"
         },
-        "tsnsportsfhd": {
-            "id": "tsnsportsfhd",
-            "name": "TSN SPORTS FHD",
+        "unite8sports2hd": {
+            "id": "unite8sports2hd",
+            "name": "UNITE8 HINDI - IN",
             "Bearer": null,
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
-            "k1": "e853333da2c9196ea11374634231bc45",
-            "k2": "de2e2dbe818d78dfad07d6cd9a4c63d4"
+            "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
+            "k1": "a84eb885331f7b3d744b10ced1a9dd8b",
+            "k2": "ff626d44d51e2d2d9802ef83a1d28437"
         },
-        "footsters": {
-            "id": "footsters",
-            "name": "footsters",
+        "tvela1spanish": {
+            "id": "tvela1spanish",
+            "name": "TVE La1 SPANISH",
             "Bearer": null,
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/duqbirmk0d/out/v1/40f53c7cbc95498db3afd081c377d776/cenc.mpd",
-            "k1": "609d795905904705028ef54653019af7",
-            "k2": "2c791eb611e57a7d7f203022bc1b9ba3"
+            "url": "https://bia-cf.live.pv-cdn.net/sin-nitro/live/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
+            "k1": "745cd6ec34a58f2f7ac2af35dc3da6d2",
+            "k2": "ae008f1e47e6567fe4201a6ff8f1ae54"
         },
-        "f1tvfhd": {
-            "id": "f1tvfhd",
-            "name": "F1 TV FHD",
+        "vixspanishaq": {
+            "id": "vixspanishaq",
+            "name": "VIX SPANISH - AQ",
             "Bearer": null,
-            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/duqbirmk0d/out/v1/40f53c7cbc95498db3afd081c377d776/cenc.mpd",
-            "k1": "609d795905904705028ef54653019af7",
-            "k2": "2c791eb611e57a7d7f203022bc1b9ba3"
+            "url": "https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-90-HD/default.mpd",
+            "k1": "75074a0cbd83f5b72fb3e5c1495252a9",
+            "k2": "a4a0df04b2d28f2160cead2ecdeb7203"
+        },
+        "sportvbraq": {
+            "id": "sportvbraq",
+            "name": "SporTV BR - AQ",
+            "Bearer": null,
+            "url": "https://a121aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/tvezxbddeg/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+            "k1": "cb5eaea6d91fc8a702f154cefd69c976",
+            "k2": "fd4b69623da596aac100e5722d8a1ca0"
+        },
+        "beinsportsaq": {
+            "id": "beinsportsaq",
+            "name": "BEIN SPORTS - AQ",
+            "Bearer": null,
+            "url": "https://sh-bks400-11.starhubgo.com/bpk-token/1aa@io0tjez2jpgrepyrzfonfuhtikst4mcji0yijuba/bpk-tv/FIFAWCCh1/output/manifest.mpd",
+            "k1": "9e695f8c65d74c6a9827a2e35367c086",
+            "k2": "decde9976ea76d1a91f91d9bf068f413"
+        },
+        "cazetvprime": {
+            "id": "cazetvprime",
+            "name": "CAZE TV - AQ [BR]",
+            "Bearer": null,
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd",
+            "k1": "34475edab991ad5e92548aebd710410a",
+            "k2": "501b209cccd323ac00bf5ac15b406cb4"
+        },
+        "rteenglishaq": {
+            "id": "rteenglishaq",
+            "name": "RTE ENGLISH - AQ",
+            "Bearer": null,
+            "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
+            "k1": "d816287e21496989eae1312925a423c5",
+            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
+        },
+        "tsnenglishaq": {
+            "id": "tsnenglishaq",
+            "name": "TSN ENGLISH - AQ",
+            "Bearer": null,
+            "url": "https://otte-qw.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+            "k1": "14eeabf30c14b7fbf3008c03099ce011",
+            "k2": "17d2ac8dbc5429bd70af3433aa12158d"
+        },
+        "sporzasports": {
+            "id": "sporzasports",
+            "name": "SPORZA SPORTS",
+            "Bearer": null,
+            "url": "https://live.vrtcdn.be/groupd/live/0761024f-37fe-4254-bc37-e95d7c62b2d1/playout.isml/.mpd",
+            "k1": "7c0a14fc7dc3c641af8cb6506431a628",
+            "k2": "f318ff7c01cca20c4a5b3d91074ca460"
+        },
+        "footbollrussia": {
+            "id": "footbollrussia",
+            "name": "FOOTBOLL RUSSIA",
+            "Bearer": null,
+            "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
+            "k1": "9145a6e0f778e61866f573d4944dd533",
+            "k2": "d02173d40515fea5c83944f21d0f3114"
+        },
+        "tvppolish": {
+            "id": "tvppolish",
+            "name": "TVP POLISH FHD",
+            "Bearer": null,
+            "url": "https://estreams.tv.nej.cz/dash/CH_TVP_SPORT_Portable.ism/playlist.mpd",
+            "k1": null,
+            "k2": null
+        },
+        "fussballtv4k": {
+            "id": "fussballtv4k",
+            "name": "FUSSBALL TV 4K",
+            "Bearer": null,
+            "url": "https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_1_UHD/default/index.mpd",
+            "k1": "4f558eae1b005126b2ac6e9eb1a7849e",
+            "k2": "17aea325d91b5e66f06a8c574f2f0b03"
+        },
+        "unite8sportsin": {
+            "id": "unite8sportsin",
+            "name": "UNITE8 SPORTS - IN",
+            "Bearer": null,
+            "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
+            "k1": "ee5dea847c44d9f6063022978e3ce382",
+            "k2": "fb0ce876da1bd792260a99fb7dd97b4a"
+        },
+        "foxusa4k": {
+            "id": "foxusa4k",
+            "name": "FOX SPORTS 4k",
+            "Bearer": null,
+            "url": "https://otte.live.fly.ww.aiv-cdn.net/bom-nitro/live/clients/dash/enc/buf9inoetu/out/v1/31d30c91fc65458789b84209d3fa22e4/cenc.mpd",
+            "k1": "1f68713028d439ec03be07f56c1d6213",
+            "k2": "20093db6455160fffed4c394def3193d"
+        },
+        "fussball4kger": {
+            "id": "fussball4kger",
+            "name": "FUSSBALL 4K [GER]",
+            "Bearer": null,
+            "url": "https://svc45.main.sl.t-online.de/bpk-tv/KID01037_FUSSBALLTV1_uhd/DASH/index.mpd",
+            "k1": "1f09d5788fbbb03a053d03cc731f31a9",
+            "k2": "d493d5a70c793362324638f61d1726ac"
+        },
+        "telemundoesusa": {
+            "id": "telemundoesusa",
+            "name": "TELEMUNDO ES USA",
+            "Bearer": null,
+            "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(WSNS)/master.mpd",
+            "k1": "7d6bb9f86e133e4cb33440b493b6b672",
+            "k2": "584ad285dcb9e7d42cf3e93f1cc3fe11"
+        },
+        "foxprimeengusavpn": {
+            "id": "foxprimeengusavpn",
+            "name": "FOX PRIME ENG [USA VPN]",
+            "Bearer": null,
+            "url": "https://otte-azion.live.pv-cdn.net/iad-nitro/live/clients/enc/pp9fyo4pdg/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
+            "k1": "f6564ec2aee819046328a0e153be574d",
+            "k2": "ff46a8a1031eb27ef22576a077c98ab7"
+        },
+        "telemundo": {
+            "id": "telemundo",
+            "name": "TELEMUNDO - AQ",
+            "Bearer": null,
+            "url": "https://cun-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/default.mpd",
+            "k1": "1efe4add8fdf327c5f8d2a1c195e5c71",
+            "k2": "4f50e6f011e60ca01ee561f27187e78f"
+        },
+        "canalsports": {
+            "id": "canalsports",
+            "name": "CANAL SPORTS",
+            "Bearer": null,
+            "url": "https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd",
+            "k1": "2a8c2d5088377f51f825d871e568be19",
+            "k2": "eb5a8db64ca1992389672edb9447c711"
         }
     }
 }
