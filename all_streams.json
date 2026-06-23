@@ -260,14 +260,6 @@
         }
     },
     "fifa": {
-        "rteenglishaqfast": {
-            "id": "rteenglishaqfast",
-            "name": "RTE ENGLISH - AQ [FAST]",
-            "Bearer": null,
-            "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
-            "k1": "d816287e21496989eae1312925a423c5",
-            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
-        },
         "dsports": {
             "id": "dsports",
             "name": "D SPORTS - AQ [ES]",
@@ -300,14 +292,6 @@
             "k1": "f6564ec2aee819046328a0e153be574d",
             "k2": "ff46a8a1031eb27ef22576a077c98ab7"
         },
-        "fifatvaq": {
-            "id": "fifatvaq",
-            "name": "FIFA TV  - AQ",
-            "Bearer": null,
-            "url": "https://sh-bks400-11.starhubgo.com/bpk-token/1aa@io0tjez2jpgrepyrzfonfuhtikst4mcji0yijuba/bpk-tv/FIFAWCCh1/output/manifest.mpd",
-            "k1": "9e695f8c65d74c6a9827a2e35367c086",
-            "k2": "decde9976ea76d1a91f91d9bf068f413"
-        },
         "sporzasports": {
             "id": "sporzasports",
             "name": "SPORZA SPORTS",
@@ -323,6 +307,14 @@
             "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
             "k1": "9145a6e0f778e61866f573d4944dd533",
             "k2": "d02173d40515fea5c83944f21d0f3114"
+        },
+        "rteenglishaq": {
+            "id": "rteenglishaq",
+            "name": "RTE ENGLISH - AQ",
+            "Bearer": null,
+            "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
+            "k1": "d816287e21496989eae1312925a423c5",
+            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
         },
         "tvppolish": {
             "id": "tvppolish",
