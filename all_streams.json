@@ -260,6 +260,14 @@
         }
     },
     "fifa": {
+        "ntv": {
+            "id": "ntv",
+            "name": "NTV ENGLISH - AQ",
+            "Bearer": null,
+            "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
+            "k1": "f3c91e7a2d844a5bb8f16e2d9c7a4f13",
+            "k2": "9b3045bcf35b0a6ccfdd992fd9e5bd9b"
+        },
         "tipikfr": {
             "id": "tipikfr",
             "name": "TIPIK FR - AQ",
@@ -267,6 +275,30 @@
             "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
             "k1": "adca25b8779e4168a0cd710f59f61ccf",
             "k2": "be5383ed3cd8079f4ffe78ad067f476a"
+        },
+        "ctsports": {
+            "id": "ctsports",
+            "name": "CT SPORTS - AQ",
+            "Bearer": null,
+            "url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
+            "k1": "11223344556677889900112233445566",
+            "k2": "4b80724d0ef86bcb2c21f7999d67739d"
+        },
+        "rteenglishaq": {
+            "id": "rteenglishaq",
+            "name": "RTE ENGLISH - AQ",
+            "Bearer": null,
+            "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
+            "k1": "d816287e21496989eae1312925a423c5",
+            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
+        },
+        "sportvbraq": {
+            "id": "sportvbraq",
+            "name": "SporTV BR - AQ",
+            "Bearer": null,
+            "url": "https://a121aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/tvezxbddeg/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+            "k1": "cb5eaea6d91fc8a702f154cefd69c976",
+            "k2": "fd4b69623da596aac100e5722d8a1ca0"
         },
         "dsports": {
             "id": "dsports",
@@ -307,14 +339,6 @@
             "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
             "k1": "9145a6e0f778e61866f573d4944dd533",
             "k2": "d02173d40515fea5c83944f21d0f3114"
-        },
-        "rteenglishaq": {
-            "id": "rteenglishaq",
-            "name": "RTE ENGLISH - AQ",
-            "Bearer": null,
-            "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
-            "k1": "d816287e21496989eae1312925a423c5",
-            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
         },
         "tvppolish": {
             "id": "tvppolish",
@@ -364,14 +388,6 @@
             "k1": "1efe4add8fdf327c5f8d2a1c195e5c71",
             "k2": "4f50e6f011e60ca01ee561f27187e78f"
         },
-        "unite8sports2hd": {
-            "id": "unite8sports2hd",
-            "name": "UNITE8 HINDI - IN",
-            "Bearer": null,
-            "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
-            "k1": "a84eb885331f7b3d744b10ced1a9dd8b",
-            "k2": "ff626d44d51e2d2d9802ef83a1d28437"
-        },
         "vixspanishaq": {
             "id": "vixspanishaq",
             "name": "VIX SPANISH - AQ",
@@ -387,14 +403,6 @@
             "url": "https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_1_UHD/default/index.mpd",
             "k1": "4f558eae1b005126b2ac6e9eb1a7849e",
             "k2": "17aea325d91b5e66f06a8c574f2f0b03"
-        },
-        "sportvbraq": {
-            "id": "sportvbraq",
-            "name": "SporTV BR - AQ",
-            "Bearer": null,
-            "url": "https://a121aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/tvezxbddeg/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
-            "k1": "cb5eaea6d91fc8a702f154cefd69c976",
-            "k2": "fd4b69623da596aac100e5722d8a1ca0"
         }
     }
 }
