@@ -13,16 +13,16 @@
             "name": "Hindi",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
-            "k1": "b90a8e3b967f0a7505bc0e925853c62d",
-            "k2": "def40d621397cf5fedb93884cf7eb3ef"
+            "k1": "9dd5f61a6ab4ded80012077d386dfa71",
+            "k2": "594ffa64ab2822058165b35cbcab24bf"
         },
         "u": {
             "id": "u",
             "name": "English ",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd14/dth.mpd",
-            "k1": "ced0a71adadd9318d01d2a9537d3f00b",
-            "k2": "f02af63085b3e0384f0d9f613031687b"
+            "k1": "48c50606538919784866f94fb46156e4",
+            "k2": "67f809f98803869d9353555a87e636ab"
         },
         "fs1": {
             "id": "fs1",
@@ -38,9 +38,9 @@
             "id": "fifaprime1",
             "name": "Fox Prime",
             "Bearer": null,
-            "url": "https://otte-azion.live.pv-cdn.net/syd-nitro/live/clients/enc/brcuszv1in/out/v1/7832f893d9f043efbf0eabb9b33294cc/cenc.mpd",
-            "k1": "a3b68e5f2e15cfec39ee98461dfbff36",
-            "k2": "51256ff951bd8defc4604d5b92732e75"
+            "url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
+            "k1": "f6564ec2aee819046328a0e153be574d",
+            "k2": "ff46a8a1031eb27ef22576a077c98ab7"
         },
         "cazetvprime": {
             "id": "cazetvprime",
@@ -62,9 +62,9 @@
             "id": "dsports",
             "name": "D Sports Spainish",
             "Bearer": null,
-            "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
-            "k1": "f8b207c10f3f76aeba32a360ec52b9e4",
-            "k2": "afad49d20eb39670e93e371c1d669921"
+            "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ubehitlwzo/out/v1/8e09c381a51f4366a19e979418112e8f/cenc.mpd",
+            "k1": "a7d11d37a1f7611ee88d4db880171f32",
+            "k2": "68f96d618b0b956b008c445896a25a79"
         },
         "m6": {
             "id": "m6",
@@ -154,21 +154,21 @@
             "k1": "7d6bb9f86e133e4cb33440b493b6b672",
             "k2": "584ad285dcb9e7d42cf3e93f1cc3fe11"
         },
-        "u": {
-            "id": "u",
+        "unite8sports2hd": {
+            "id": "unite8sports2hd",
             "name": "HINDI Unite8 Sports 2HD",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd14/dth.mpd",
-            "k1": "ced0a71adadd9318d01d2a9537d3f00b",
-            "k2": "f02af63085b3e0384f0d9f613031687b"
+            "k1": "ee4a1fb5724d964ab540c3d9ddce98e1",
+            "k2": "1b56da7481975507ab506a970c419b8d"
         },
-        "h": {
-            "id": "h",
+        "unite8sports1hd": {
+            "id": "unite8sports1hd",
             "name": "English Unite8 Sports 1HD",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
-            "k1": "b90a8e3b967f0a7505bc0e925853c62d",
-            "k2": "def40d621397cf5fedb93884cf7eb3ef"
+            "k1": "e2d998ab1361a95bdb70f10e75ff51a1",
+            "k2": "e680b004bd19c96f759c69dc4993603c"
         },
         "ios": {
             "id": "ios",
@@ -241,22 +241,6 @@
             "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tvezxbddeg/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
             "k1": "cb5eaea6d91fc8a702f154cefd69c976",
             "k2": "fd4b69623da596aac100e5722d8a1ca0"
-        },
-        "foxios": {
-            "id": "foxios",
-            "name": "Fox English iOS",
-            "Bearer": null,
-            "url": "https://inproviszon.st/fox.m3u8",
-            "k1": null,
-            "k2": null
-        },
-        "tsn1ios": {
-            "id": "tsn1ios",
-            "name": "TSN 1 English iOS",
-            "Bearer": null,
-            "url": "https://doret.s3.us-east-1.amazonaws.com/live/match_1.m3u8",
-            "k1": null,
-            "k2": null
         }
     },
     "fifa": {
