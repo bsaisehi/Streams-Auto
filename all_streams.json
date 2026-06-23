@@ -276,14 +276,6 @@
             "k1": "11223344556677889900112233445566",
             "k2": "4b80724d0ef86bcb2c21f7999d67739d"
         },
-        "ntv": {
-            "id": "ntv",
-            "name": "NTV ENGLISH - AQ",
-            "Bearer": null,
-            "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
-            "k1": "f3c91e7a2d844a5bb8f16e2d9c7a4f13",
-            "k2": "9b3045bcf35b0a6ccfdd992fd9e5bd9b"
-        },
         "rteenglishaq": {
             "id": "rteenglishaq",
             "name": "RTE ENGLISH - AQ",
@@ -291,6 +283,14 @@
             "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
             "k1": "d816287e21496989eae1312925a423c5",
             "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
+        },
+        "ntv": {
+            "id": "ntv",
+            "name": "NTV ENGLISH - AQ",
+            "Bearer": null,
+            "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
+            "k1": "f3c91e7a2d844a5bb8f16e2d9c7a4f13",
+            "k2": "9b3045bcf35b0a6ccfdd992fd9e5bd9b"
         },
         "sportvbraq": {
             "id": "sportvbraq",
