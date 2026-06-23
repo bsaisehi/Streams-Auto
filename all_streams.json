@@ -260,9 +260,9 @@
         }
     },
     "fifa": {
-        "rteenglishaq": {
-            "id": "rteenglishaq",
-            "name": "RTE ENGLISH - AQ",
+        "rteenglishaqfast": {
+            "id": "rteenglishaqfast",
+            "name": "RTE ENGLISH - AQ [FAST]",
             "Bearer": null,
             "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
             "k1": "d816287e21496989eae1312925a423c5",
@@ -332,14 +332,6 @@
             "k1": null,
             "k2": null
         },
-        "fussballtv4kusa": {
-            "id": "fussballtv4kusa",
-            "name": "FUSSBALL TV 4K [USA]",
-            "Bearer": null,
-            "url": "https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_1_UHD/default/index.mpd",
-            "k1": "4f558eae1b005126b2ac6e9eb1a7849e",
-            "k2": "17aea325d91b5e66f06a8c574f2f0b03"
-        },
         "foxusa4k": {
             "id": "foxusa4k",
             "name": "FOX SPORTS 4k",
@@ -395,6 +387,22 @@
             "url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
             "k1": "11223344556677889900112233445566",
             "k2": "4b80724d0ef86bcb2c21f7999d67739d"
+        },
+        "vixspanishaq": {
+            "id": "vixspanishaq",
+            "name": "VIX SPANISH - AQ",
+            "Bearer": null,
+            "url": "https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-90-HD/default.mpd",
+            "k1": "75074a0cbd83f5b72fb3e5c1495252a9",
+            "k2": "a4a0df04b2d28f2160cead2ecdeb7203"
+        },
+        "fussballtv4k": {
+            "id": "fussballtv4k",
+            "name": "FUSSBALL TV 4K",
+            "Bearer": null,
+            "url": "https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_1_UHD/default/index.mpd",
+            "k1": "4f558eae1b005126b2ac6e9eb1a7849e",
+            "k2": "17aea325d91b5e66f06a8c574f2f0b03"
         }
     }
 }
