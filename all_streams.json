@@ -387,6 +387,14 @@
             "url": "https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_1_UHD/default/index.mpd",
             "k1": "4f558eae1b005126b2ac6e9eb1a7849e",
             "k2": "17aea325d91b5e66f06a8c574f2f0b03"
+        },
+        "sportvbraq": {
+            "id": "sportvbraq",
+            "name": "SporTV BR - AQ",
+            "Bearer": null,
+            "url": "https://a121aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/tvezxbddeg/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+            "k1": "cb5eaea6d91fc8a702f154cefd69c976",
+            "k2": "fd4b69623da596aac100e5722d8a1ca0"
         }
     }
 }
