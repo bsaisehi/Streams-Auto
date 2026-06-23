@@ -260,14 +260,6 @@
         }
     },
     "fifa": {
-        "dsports": {
-            "id": "dsports",
-            "name": "D SPORTS - AQ [ES]",
-            "Bearer": null,
-            "url": "https://otte-qw.live.pv-cdn.net/gru-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
-            "k1": "f8b207c10f3f76aeba32a360ec52b9e4",
-            "k2": "afad49d20eb39670e93e371c1d669921"
-        },
         "tipikfr": {
             "id": "tipikfr",
             "name": "TIPIK FR - AQ",
@@ -275,6 +267,14 @@
             "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
             "k1": "adca25b8779e4168a0cd710f59f61ccf",
             "k2": "be5383ed3cd8079f4ffe78ad067f476a"
+        },
+        "dsports": {
+            "id": "dsports",
+            "name": "D SPORTS - AQ [ES]",
+            "Bearer": null,
+            "url": "https://otte-azion.live.pv-cdn.net/gru-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
+            "k1": "f8b207c10f3f76aeba32a360ec52b9e4",
+            "k2": "afad49d20eb39670e93e371c1d669921"
         },
         "tsnenglishaq": {
             "id": "tsnenglishaq",
@@ -371,14 +371,6 @@
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
             "k1": "a84eb885331f7b3d744b10ced1a9dd8b",
             "k2": "ff626d44d51e2d2d9802ef83a1d28437"
-        },
-        "ctsports": {
-            "id": "ctsports",
-            "name": "CT SPORTS",
-            "Bearer": null,
-            "url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
-            "k1": "11223344556677889900112233445566",
-            "k2": "4b80724d0ef86bcb2c21f7999d67739d"
         },
         "vixspanishaq": {
             "id": "vixspanishaq",
