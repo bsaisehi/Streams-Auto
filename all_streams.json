@@ -260,45 +260,13 @@
         }
     },
     "fifa": {
-        "tipikfr": {
-            "id": "tipikfr",
-            "name": "TIPIK FR - AQ",
+        "ctvsports": {
+            "id": "ctvsports",
+            "name": "CTV SPORTS - AQ",
             "Bearer": null,
-            "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
-            "k1": "adca25b8779e4168a0cd710f59f61ccf",
-            "k2": "be5383ed3cd8079f4ffe78ad067f476a"
-        },
-        "ctsports": {
-            "id": "ctsports",
-            "name": "CT SPORTS - AQ",
-            "Bearer": null,
-            "url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
-            "k1": "11223344556677889900112233445566",
-            "k2": "4b80724d0ef86bcb2c21f7999d67739d"
-        },
-        "rteenglishaq": {
-            "id": "rteenglishaq",
-            "name": "RTE ENGLISH - AQ",
-            "Bearer": null,
-            "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
-            "k1": "d816287e21496989eae1312925a423c5",
-            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
-        },
-        "ntv": {
-            "id": "ntv",
-            "name": "NTV ENGLISH - AQ",
-            "Bearer": null,
-            "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
-            "k1": "f3c91e7a2d844a5bb8f16e2d9c7a4f13",
-            "k2": "9b3045bcf35b0a6ccfdd992fd9e5bd9b"
-        },
-        "sportvbraq": {
-            "id": "sportvbraq",
-            "name": "SporTV BR - AQ",
-            "Bearer": null,
-            "url": "https://a121aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/tvezxbddeg/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
-            "k1": "cb5eaea6d91fc8a702f154cefd69c976",
-            "k2": "fd4b69623da596aac100e5722d8a1ca0"
+            "url": "https://otte-qw.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
+            "k1": "d185684e2330de5bea436daa094a5e86",
+            "k2": "014f0116154f5bf0050e03a6b0a23157"
         },
         "tsnenglishaq": {
             "id": "tsnenglishaq",
@@ -315,6 +283,30 @@
             "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
             "k1": "f6564ec2aee819046328a0e153be574d",
             "k2": "ff46a8a1031eb27ef22576a077c98ab7"
+        },
+        "tipikfr": {
+            "id": "tipikfr",
+            "name": "TIPIK FR - AQ",
+            "Bearer": null,
+            "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
+            "k1": "adca25b8779e4168a0cd710f59f61ccf",
+            "k2": "be5383ed3cd8079f4ffe78ad067f476a"
+        },
+        "rteenglishaq": {
+            "id": "rteenglishaq",
+            "name": "RTE ENGLISH - AQ",
+            "Bearer": null,
+            "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
+            "k1": "d816287e21496989eae1312925a423c5",
+            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
+        },
+        "ntv": {
+            "id": "ntv",
+            "name": "NTV ENGLISH - AQ",
+            "Bearer": null,
+            "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
+            "k1": "f3c91e7a2d844a5bb8f16e2d9c7a4f13",
+            "k2": "9b3045bcf35b0a6ccfdd992fd9e5bd9b"
         },
         "sporzasports": {
             "id": "sporzasports",
