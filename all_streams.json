@@ -284,6 +284,14 @@
             "k1": "f6564ec2aee819046328a0e153be574d",
             "k2": "ff46a8a1031eb27ef22576a077c98ab7"
         },
+        "jojsportsaq": {
+            "id": "jojsportsaq",
+            "name": "JOJ SPORTS - AQ",
+            "Bearer": null,
+            "url": "https://dash4.antik.sk/stream/nvidia_joj_sport/playlist_cbcs.mpd",
+            "k1": "https",
+            "k2": "//drm.antik.sk/widevine/key"
+        },
         "tipikfr": {
             "id": "tipikfr",
             "name": "TIPIK FR - AQ",
