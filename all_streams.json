@@ -13,16 +13,16 @@
             "name": "Hindi",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
-            "k1": "b90a8e3b967f0a7505bc0e925853c62d",
-            "k2": "def40d621397cf5fedb93884cf7eb3ef"
+            "k1": "99ecca24b79258fbe9b4883460288dbd",
+            "k2": "427c1bffd16e4ecbc2b1326f2610d3c5"
         },
         "u": {
             "id": "u",
             "name": "English ",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd14/dth.mpd",
-            "k1": "242416eb9516582bb1fc77b3e5a8b9f1",
-            "k2": "bef5c095f9ac7029df4925f0d499fb2c"
+            "k1": "893644415f72227cda26c1b891d441b5",
+            "k2": "faa5bc2e13da81316fb9aab122ca28d5"
         },
         "fs1": {
             "id": "fs1",
@@ -159,16 +159,16 @@
             "name": "HINDI Unite8 Sports 2HD",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd14/dth.mpd",
-            "k1": "242416eb9516582bb1fc77b3e5a8b9f1",
-            "k2": "bef5c095f9ac7029df4925f0d499fb2c"
+            "k1": "893644415f72227cda26c1b891d441b5",
+            "k2": "faa5bc2e13da81316fb9aab122ca28d5"
         },
         "h": {
             "id": "h",
             "name": "English Unite8 Sports 1HD",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
-            "k1": "b90a8e3b967f0a7505bc0e925853c62d",
-            "k2": "def40d621397cf5fedb93884cf7eb3ef"
+            "k1": "99ecca24b79258fbe9b4883460288dbd",
+            "k2": "427c1bffd16e4ecbc2b1326f2610d3c5"
         },
         "ios": {
             "id": "ios",
@@ -268,6 +268,38 @@
             "k1": "d185684e2330de5bea436daa094a5e86",
             "k2": "014f0116154f5bf0050e03a6b0a23157"
         },
+        "dsports": {
+            "id": "dsports",
+            "name": "D SPORTS - AQ [ES]",
+            "Bearer": null,
+            "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/x0srg3jjpz/out/v1/f779c49314394d61886d63f58d9d52e4/cenc.mpd",
+            "k1": "4f4c3a9912ea752e88f4497864a1bc8b",
+            "k2": "278128004fe8c6ffb2cd2a0c154a241a"
+        },
+        "itvsportsaq": {
+            "id": "itvsportsaq",
+            "name": "ITV SPORTS - AQ",
+            "Bearer": null,
+            "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
+            "k1": "30089c52924f037b225b82c616fee2a5",
+            "k2": "f55dc8b66ed4fc6753d6035ae7e17144"
+        },
+        "telemundo": {
+            "id": "telemundo",
+            "name": "TELEMUNDO - AQ",
+            "Bearer": null,
+            "url": "https://cun-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/default.mpd",
+            "k1": "1efe4add8fdf327c5f8d2a1c195e5c71",
+            "k2": "4f50e6f011e60ca01ee561f27187e78f"
+        },
+        "ctsports": {
+            "id": "ctsports",
+            "name": "CT SPORTS - AQ",
+            "Bearer": null,
+            "url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
+            "k1": "11223344556677889900112233445566",
+            "k2": "4b80724d0ef86bcb2c21f7999d67739d"
+        },
         "tsnenglishaq": {
             "id": "tsnenglishaq",
             "name": "TSN ENGLISH - AQ",
@@ -276,21 +308,13 @@
             "k1": "14eeabf30c14b7fbf3008c03099ce011",
             "k2": "17d2ac8dbc5429bd70af3433aa12158d"
         },
-        "foxenglishfhd": {
-            "id": "foxenglishfhd",
-            "name": "FOX ENGLISH FHD",
+        "foxenglishaq": {
+            "id": "foxenglishaq",
+            "name": "FOX ENGLISH - AQ",
             "Bearer": null,
             "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
             "k1": "f6564ec2aee819046328a0e153be574d",
             "k2": "ff46a8a1031eb27ef22576a077c98ab7"
-        },
-        "jojsportsaq": {
-            "id": "jojsportsaq",
-            "name": "JOJ SPORTS - AQ",
-            "Bearer": null,
-            "url": "https://dash4.antik.sk/stream/nvidia_joj_sport/playlist_cbcs.mpd",
-            "k1": "https",
-            "k2": "//drm.antik.sk/widevine/key"
         },
         "tipikfr": {
             "id": "tipikfr",
@@ -356,9 +380,9 @@
             "k1": "1f09d5788fbbb03a053d03cc731f31a9",
             "k2": "d493d5a70c793362324638f61d1726ac"
         },
-        "telemundoesusa": {
-            "id": "telemundoesusa",
-            "name": "TELEMUNDO ES USA",
+        "telemundoesusavpn": {
+            "id": "telemundoesusavpn",
+            "name": "TELEMUNDO ES [USA VPN]",
             "Bearer": null,
             "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(WSNS)/master.mpd",
             "k1": "7d6bb9f86e133e4cb33440b493b6b672",
@@ -371,14 +395,6 @@
             "url": "https://otte-azion.live.pv-cdn.net/iad-nitro/live/clients/enc/pp9fyo4pdg/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
             "k1": "f6564ec2aee819046328a0e153be574d",
             "k2": "ff46a8a1031eb27ef22576a077c98ab7"
-        },
-        "telemundo": {
-            "id": "telemundo",
-            "name": "TELEMUNDO - AQ",
-            "Bearer": null,
-            "url": "https://cun-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/default.mpd",
-            "k1": "1efe4add8fdf327c5f8d2a1c195e5c71",
-            "k2": "4f50e6f011e60ca01ee561f27187e78f"
         },
         "vixspanishaq": {
             "id": "vixspanishaq",
