@@ -292,6 +292,14 @@
             "k1": "30089c52924f037b225b82c616fee2a5",
             "k2": "f55dc8b66ed4fc6753d6035ae7e17144"
         },
+        "m6franceaqnodelay": {
+            "id": "m6franceaqnodelay",
+            "name": "M6 FRANCE - AQ [No Delay]",
+            "Bearer": null,
+            "url": "https://edge-fastly-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd",
+            "k1": "1c285ebc98483383b938f2aac331410c",
+            "k2": "10accd30d969402cf0bb0fb99ad09283"
+        },
         "tipikfr": {
             "id": "tipikfr",
             "name": "TIPIK FR - AQ",
@@ -324,14 +332,6 @@
             "k1": "1efe4add8fdf327c5f8d2a1c195e5c71",
             "k2": "4f50e6f011e60ca01ee561f27187e78f"
         },
-        "ctsports": {
-            "id": "ctsports",
-            "name": "CT SPORTS - AQ",
-            "Bearer": null,
-            "url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
-            "k1": "11223344556677889900112233445566",
-            "k2": "4b80724d0ef86bcb2c21f7999d67739d"
-        },
         "footbollrussia": {
             "id": "footbollrussia",
             "name": "FOOTBOLL RUSSIA",
@@ -339,14 +339,6 @@
             "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
             "k1": "9145a6e0f778e61866f573d4944dd533",
             "k2": "d02173d40515fea5c83944f21d0f3114"
-        },
-        "tvppolish": {
-            "id": "tvppolish",
-            "name": "TVP POLISH FHD",
-            "Bearer": null,
-            "url": "https://estreams.tv.nej.cz/dash/CH_TVP_SPORT_Portable.ism/playlist.mpd",
-            "k1": null,
-            "k2": null
         },
         "foxusa4k": {
             "id": "foxusa4k",
@@ -380,14 +372,6 @@
             "k1": "f6564ec2aee819046328a0e153be574d",
             "k2": "ff46a8a1031eb27ef22576a077c98ab7"
         },
-        "vixspanishaq": {
-            "id": "vixspanishaq",
-            "name": "VIX SPANISH - AQ",
-            "Bearer": null,
-            "url": "https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-90-HD/default.mpd",
-            "k1": "75074a0cbd83f5b72fb3e5c1495252a9",
-            "k2": "a4a0df04b2d28f2160cead2ecdeb7203"
-        },
         "fussballtv4k": {
             "id": "fussballtv4k",
             "name": "FUSSBALL TV 4K",
@@ -395,6 +379,14 @@
             "url": "https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_1_UHD/default/index.mpd",
             "k1": "4f558eae1b005126b2ac6e9eb1a7849e",
             "k2": "17aea325d91b5e66f06a8c574f2f0b03"
+        },
+        "fussballtv24k": {
+            "id": "fussballtv24k",
+            "name": "FUSSBALL TV2 4K",
+            "Bearer": null,
+            "url": "https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_2_UHD/default/index.mpd",
+            "k1": "ccdf9f3d9bbf5c508adf04f81918a285",
+            "k2": "66cf0524fcc2eb0c7dab8bbbf8829827"
         }
     }
 }
