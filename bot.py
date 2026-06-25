@@ -54,7 +54,7 @@ SOURCES = {
     },
 
     "fifa26": {
-        "base_url": "https://footballapi-delta.vercel.app/api/events?play=1",
+        "base_url": "https://footballapi-delta.vercel.app/api/events?play=3",
         "items": [None],
         "type": "events_api",
         "headers": {
