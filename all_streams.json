@@ -276,6 +276,30 @@
             "k1": "14eeabf30c14b7fbf3008c03099ce011",
             "k2": "17d2ac8dbc5429bd70af3433aa12158d"
         },
+        "ctsports": {
+            "id": "ctsports",
+            "name": "CT SPORTS - AQ",
+            "Bearer": null,
+            "url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
+            "k1": "11223344556677889900112233445566",
+            "k2": "4b80724d0ef86bcb2c21f7999d67739d"
+        },
+        "tv4swedenaq": {
+            "id": "tv4swedenaq",
+            "name": "TV4 SWEDEN - AQ",
+            "Bearer": null,
+            "url": "https://director.streaming.telia.com/tvm-packager-prod/group2/61a4859b79019af4abf1009d/manifest.mpd?adap=default",
+            "k1": "b09d157d18ab51b9923a3d5abdeefd52",
+            "k2": "5a29bb3c705edea6941a5b1d575ac316"
+        },
+        "rteenglishaq": {
+            "id": "rteenglishaq",
+            "name": "RTE ENGLISH - AQ",
+            "Bearer": null,
+            "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
+            "k1": "d816287e21496989eae1312925a423c5",
+            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
+        },
         "foxenglishaq": {
             "id": "foxenglishaq",
             "name": "FOX ENGLISH - AQ",
@@ -292,14 +316,6 @@
             "k1": "4f4c3a9912ea752e88f4497864a1bc8b",
             "k2": "278128004fe8c6ffb2cd2a0c154a241a"
         },
-        "tipikfr": {
-            "id": "tipikfr",
-            "name": "TIPIK FR - AQ",
-            "Bearer": null,
-            "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
-            "k1": "adca25b8779e4168a0cd710f59f61ccf",
-            "k2": "be5383ed3cd8079f4ffe78ad067f476a"
-        },
         "ntv": {
             "id": "ntv",
             "name": "NTV ENGLISH - AQ",
@@ -315,14 +331,6 @@
             "url": "https://cun-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/default.mpd",
             "k1": "1efe4add8fdf327c5f8d2a1c195e5c71",
             "k2": "4f50e6f011e60ca01ee561f27187e78f"
-        },
-        "rteenglishaq": {
-            "id": "rteenglishaq",
-            "name": "RTE ENGLISH - AQ",
-            "Bearer": null,
-            "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
-            "k1": "d816287e21496989eae1312925a423c5",
-            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
         },
         "footbollrussia": {
             "id": "footbollrussia",
