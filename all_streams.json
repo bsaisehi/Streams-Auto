@@ -54,9 +54,9 @@
             "id": "ntv",
             "name": "NTV English",
             "Bearer": null,
-            "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/ch299/default/index.mpd",
-            "k1": "549ab7cd35a64bb6bb479ecead04d69d",
-            "k2": "829799ed534d11fcadeb4b192467e050"
+            "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
+            "k1": "2c338a117d434ce4bbe3569231af90f1",
+            "k2": "a9633d901ee8a3f4f58ac314b5c5f4fb"
         },
         "dsports": {
             "id": "dsports",
@@ -159,16 +159,16 @@
             "name": "HINDI Unite8 Sports 2HD",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd14/dth.mpd",
-            "k1": "c14672d75201fd622e2771b4392e23e9",
-            "k2": "7bc2538edb692f9fae15ad28a8aad66f"
+            "k1": "9bdfe7170afad0e64b364f78c508331a",
+            "k2": "c36bfe7bf77d69462b041a9a02fefc45"
         },
         "h": {
             "id": "h",
             "name": "English Unite8 Sports 1HD",
             "Bearer": null,
             "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
-            "k1": "e842a5d2dccd6befb93460ee9b32128f",
-            "k2": "a5822cfbc7795664c930809aab5d3bf8"
+            "k1": "979d197114e7f72742e2dab3a0816085",
+            "k2": "cca7c65ba9eb56fc89b23d48ab64232b"
         },
         "ios": {
             "id": "ios",
