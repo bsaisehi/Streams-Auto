@@ -292,14 +292,6 @@
             "k1": "b09d157d18ab51b9923a3d5abdeefd52",
             "k2": "5a29bb3c705edea6941a5b1d575ac316"
         },
-        "rteenglishaq": {
-            "id": "rteenglishaq",
-            "name": "RTE ENGLISH - AQ",
-            "Bearer": null,
-            "url": "https://dai.google.com/linear/dash/pa/event/antwa0EiQm2PoHtx4rBtVw/stream/9217f1b8-7d77-4590-8a52-4917bcfaeed2:GRQ/manifest.mpd",
-            "k1": "d816287e21496989eae1312925a423c5",
-            "k2": "00da00f13180e7e6cd5ce87d1c974e8d"
-        },
         "foxenglishaq": {
             "id": "foxenglishaq",
             "name": "FOX ENGLISH - AQ",
