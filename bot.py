@@ -8,7 +8,7 @@ EVENTS_LIST_URL = "https://footballapi-delta.vercel.app/api/events"
 STREAMS_BASE_URL = "https://footballapi-delta.vercel.app/api/events?play=" 
 
 HEADERS = {
-    "Origin": "https://fifa26-live.pages.dev",
+    "Origin": "https://footsters-tv.pages.dev",
     "User-Agent": USER_AGENT,
     "Accept": "*/*",
     "Accept-Language": "en-US,en;q=0.9,hi;q=0.8"
