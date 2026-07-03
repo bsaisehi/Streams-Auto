@@ -5,7 +5,7 @@ import time
 # Configurations
 USER_AGENT = "Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
 EVENTS_LIST_URL = "https://footballapii-delta.vercel.app/api/op"
-STREAMS_BASE_URL = "https://footballapii-delta.vercel.app/api/op?play=" 
+STREAMS_BASE_URL = "https://footballapii-delta.vercel.app/api/op?play=50067" 
 
 HEADERS = {
     "Origin": "https://footsters-tv.pages.dev",
