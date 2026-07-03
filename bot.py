@@ -19,7 +19,7 @@ def fetch_all_events_and_streams():
     print("🔄 Automation started... Fetching overall events list...\n")
 
     try:
-        # Step 1: Sabhi active events ki list fetch karein
+        # Stp 1: Sabhi active events ki list fetch karein
         res = requests.get(EVENTS_LIST_URL, headers=HEADERS, timeout=12)
         if res.status_code != 200 or not res.text.strip():
             print(f"❌ Failed to fetch events list. Status Code: {res.status_code}")
